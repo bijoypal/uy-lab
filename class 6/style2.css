@@ -1,0 +1,25 @@
+*{
+    margin: 0;padding: 0;
+}
+.main_box{
+    display: flex;
+    justify-content: space-around;
+
+    /* gap: 20px; */
+}
+.box1,.box2{
+ height: 500px;
+ width: calc(50% - 10px);
+ background-color: chocolate;
+}
+.box2{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box3{
+    width: 100%;
+    height: calc(25% - 10px);
+    background-color: aqua;
+}

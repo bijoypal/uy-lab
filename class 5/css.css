@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin-top: 10px;
+}
+.clean{
+    clear: both;
+}
+.block{
+    width: 24%;
+    height: 450px;
+    float: left;
+    background-color: chartreuse;
+    margin-left:5px ;  
+}
+.secondblock{
+    width: 75%;
+    background-color: white ;
+}
+.fullbox{
+    height: 10%;
+    display: block;
+    margin-bottom: 5px;
+    background-color:tomato;
+}
+.mid,.last{
+    height: 44%;
+    background-color: white;
+}
+.last {
+    background-color: yellow;
+}
+.box{
+    width: 33%;
+    margin-right: 5px;
+    float: left;
+    background-color: darkolivegreen;
+    height: 100%;
+}
+.box2{
+    background-color: cornflowerblue;
+}
+.box3{
+    background-color: blueviolet;
+    margin: 0px;
+}

@@ -1,0 +1,37 @@
+*{
+    margin: 0;padding: 0;
+}
+.flex_main, .box2, .box_down{
+    display: flex;
+    justify-content: space-between;
+ }
+.flex_main{
+    justify-content: space-around;
+    height: 500px;
+    margin: 10px;
+}
+.box1{
+    width: calc(20% - 15px);
+    background-color: cadetblue;
+}
+.box2{
+    width: calc(80% - 15px);
+    background-color: transparent;
+    flex-direction: column;
+}
+.box_upper{
+    height: calc(50% - 10px);
+    width: 100%;
+    background-color: chocolate;   
+}
+.box_down{
+    height: calc(50% - 10px);
+}
+.box3{
+    width: calc(50% - 10px);
+    background-color: aqua;
+}
+.box1, .box3,.box_upper{
+    border: 2px solid rebeccapurple;
+    border-radius: 10px;
+}

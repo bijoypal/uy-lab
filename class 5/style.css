@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.clean {
+    clear: both;
+}
+.box {
+    width: 50%;
+    background-color: antiquewhite;
+    height: 200px;
+    float: left;
+}
+.box2,.box3,.box4,.box6{
+    width: 25%;
+    background-color: blue;
+}
+.box3{
+    background-color: darkkhaki;
+}
+.box4{
+    background-color: brown;
+}
+.box5{
+    background-color: black;
+}
+.box6{
+    background-color:coral ;
+}
