@@ -1,28 +1,136 @@
 *{
     margin: 0; padding: 0;
 }
+body{
+    background-color: transparent!important;
+}
+/* menu Bar */
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.manu_part{
+    background-color: rgba(250, 235, 225, 0.6);
+}
+.alignment{
+    width: 80%;
+    margin: auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    /* gap: 10px; */
+}
+.menu li{
+    position: relative;
+}
+.menu li a {
+    display: block;
+    padding: 15px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:450;
+}
+
+.menu li a:hover{
+    background-color: blueviolet;
+    color: burlywood;
+    /* font-weight:bold; */
+    color:whitesmoke;
+}
+.drop_menu {
+    background-color: aqua;
+    display: none;
+}
+.menu li:hover .drop_menu{
+    display: block;
+    position: absolute;
+    background: rgba(229, 240, 229, 0.3);;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+}
+
+/* Player formation */
+.playground{
+    margin: 10px; 
+}
 .field{
-    height: 550px;
+    height: 500px;
     width: 500px;
-    background-color: green;
-    margin: 10px auto ;
-    position:relative
+    background-image:  url(field.png);
+    background-size: 100% 100%;
+    margin: 0px auto ;
+    position:relative;
 }
 .goalbar1,.goalbar2{
-    position: absolute;
     background-color:beige;
     height: 30px;
-    width: 200px;
+    width: 150px;
     border: 3px solid black;
-    left: 150px;
-   
+    margin: 0px auto;
 }
 .goalbar1{
-    top: 0;
-    border-bottom: none;
-    
+    border-bottom: none; 
 }
 .goalbar2{
-    bottom:0 ;
     border-top: none;
+}
+.player1,.player2,.player3,.player4,.player5,.player6,.player7,.player8,.player9,.player10,.player11{
+    position: absolute;
+    height: 45px;
+    width: 40px;
+    background-image: url(jercy.png);
+    background-position: center;
+    background-size: cover;
+}
+.player1{
+ top:0px;
+ left: 180px;
+}
+.player2{
+ top:0px;
+ right: 180px;
+}
+.player3{
+    top: 110px;
+    left: 232px;
+}
+.player4{
+    top: 200px;
+    left: 130px;
+}
+.player5{
+    top: 235px;
+    left: 232px;
+}
+.player6{
+    top: 200px;
+    right: 130px ;
+}
+.player7{
+    bottom: 105px;
+    left: 85px;
+}
+.player8{
+    bottom: 90px;
+    left: 176px;
+}
+.player9{
+    bottom: 90px;
+    right: 176px;
+}
+.player10{
+    bottom: 105px;
+    right: 85px;
+}
+.player11{
+    bottom: 0px;
+    left: 232px;
 }
