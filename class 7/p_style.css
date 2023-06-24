@@ -91,15 +91,15 @@ a{
     background-size: cover;
 }
 .player1{
- top:0px;
+ top:25px;
  left: 180px;
 }
 .player2{
- top:0px;
+ top:25px;
  right: 180px;
 }
 .player3{
-    top: 110px;
+    top: 125px;
     left: 232px;
 }
 .player4{
