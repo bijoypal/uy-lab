@@ -1,0 +1,81 @@
+*{
+    margin: 0;padding: 0;
+}
+.playground{
+    margin: 10px;
+}
+.field{
+    margin: 20px;
+    width: 612px;
+    height: 454px;
+    background-image: url(ground.jpg);
+    margin: auto;
+    position: relative;
+}
+.player1,.player2,.player3,.player4,.player5,.player6,.player7,.player8,.player9,.player10,.player11{
+    position: absolute;
+}
+.format {
+    width: 45px;
+    height: 45px;
+    background: #1A5687;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+h3{
+    color: aliceblue;
+}
+h4{
+    color: black;
+    text-decoration:double;
+    background-color: white;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+.player1{
+    top: 80px;;
+    right: 160px;
+   }
+.player2{
+    top: 195px;;
+    right: 140px;
+   }
+.player3{
+    bottom: 80px;;
+    right: 160px;
+   }
+.player4{
+    top: 136px;
+    left:284px
+}
+.player5{
+    top: 205px;
+    left: 232px;
+}
+.player6{
+    bottom: 115px;
+    left:284px;
+}
+.player7{
+    top: 58px;
+    left:164px;
+}
+.player8{
+    top: 140px;
+    left:128px;
+}
+.player9{
+    bottom: 140px;
+    left:147px;
+}
+.player10{
+    bottom: 58px;
+    left:164px;
+}
+.player11{
+    bottom: 187px;
+    left:20px;
+}
