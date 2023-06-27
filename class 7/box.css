@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.contract_part{
+    /* background-color: aquamarine; */
+    background-image: url(city.jpg);
+    margin: 40px 0 0;
+    padding: 40px 0;
+}
+.alignment{
+    margin: auto;
+    width: 80%;
+}
+.contract_form_main{
+    width: 320px;
+    min-height: 100px;
+    background-color: teal;
+    padding: 15px;
+    margin: auto;
+    box-sizing: border-box;
+}
+.contract_input textarea,
+.contract_input button,
+.contract_input input{
+    height: 45px;
+    width: 100%;
+    outline: 0;
+    border: none;
+    margin: 5px 0 ;
+    font-size: 18px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 400;
+}
+.contract_input textarea{
+    height: 120px;
+    padding: 10px;
+    resize: none;
+
+}
+.contract_input button{
+    background-color: green;
+    color: beige;
+    font-size: 20px;
+}
+.contract_input input:focus, button:focus, textarea:focus {
+    background-color: aqua;
+}
