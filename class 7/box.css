@@ -7,6 +7,10 @@
 .contract_part{
     /* background-color: aquamarine; */
     background-image: url(city.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;   /*parallel effect*/
     margin: 40px 0 0;
     padding: 40px 0;
 }
