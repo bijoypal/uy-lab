@@ -1,5 +1,11 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+
 *{
     margin: 0; padding: 0;
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 400;
+
 }
 body{
     background-color: transparent!important;
@@ -11,8 +17,29 @@ ul{
 a{
     text-decoration: none;
 }
+.social_icon{
+    position: fixed;
+    top: 30%;
+    left: 0;
+    z-index: 10 ;
+}
+.social_icon a{
+    display: block;
+    height: 45px;
+    width: 45px;
+    background-color: teal;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+    color: antiquewhite ;
+}
+
 .manu_part{
-    background-color: rgba(250, 235, 225, 0.6);
+    background-color:antiquewhite;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 9;
 }
 .alignment{
     width: 80%;
@@ -47,6 +74,7 @@ a{
 .drop_menu {
     background-color: aqua;
     display: none;
+    position: relative;
 }
 .menu li:hover .drop_menu{
     display: block;
@@ -56,6 +84,22 @@ a{
     width: 100%;
     text-align: center;
 }
+.sub_menu{
+    display: none;
+    background-color: beige;
+}
+.drop_menu li:hover .sub_menu{
+    display: block;
+    position: absolute;
+    background-color: red;
+    width: 100%;
+    text-align: center;
+    top: 0;
+    left: 100%;
+}
+
+
+
 
 /* Player formation */
 .playground{
@@ -135,6 +179,7 @@ a{
     left: 232px;
 }
 .footer{
+
     height: 100px;
     width: 100%;
     background-color: rgba(250, 235, 225, 0.6);
