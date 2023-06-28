@@ -9,8 +9,18 @@ a{
 }
 .manu_part{
     background-color: rgba(250, 235, 225, 0.6);
-    width: 150px;
-    margin-left: 10px;
+    width: 15%;
+    left: 10px;
+    z-index: 10;
+    position: sticky;
+    top: 0;
+    /* display: inline-block; */
+    float: left;
+}
+.para{
+    float: left;
+    /* display: inline-block; */
+    width: 80%;
 }
 .logo{
     display: block;
@@ -43,10 +53,10 @@ a{
 }
 .menu li:hover .drop_menu{
     display: block;
-    margin-left: 150px;
-    margin-top: 0px;
+    left:100%;
+    top: 0;
     position: absolute;
-    z-index: 1;
+    z-index: 9;
     width: 100%;
     text-align: center;
     background: rgba(229, 240, 229, 0.3);

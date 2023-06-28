@@ -1,0 +1,122 @@
+*{
+    margin: 0;padding: 0;
+}
+.contract_block {
+    background-color: white;
+    margin: 40px 0 0;
+    padding: 40px 0;
+}
+.alignment{
+    margin: auto;
+    width: 80%;
+}
+.contract_main {
+    width: 432px;
+    min-height: 100px;
+    background-color: transparent;
+    padding: 10px;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px #888888;
+}
+.contract_headline{
+    height: 50px;
+    border-bottom: 0.5px solid #888888;
+    padding: 15px 0;
+    display: block;
+    margin-bottom: 15px;
+
+}
+.contract_headline img{
+    float: right;
+}
+.contract_input select,
+.contract_input label,
+.contract_input input{
+    height: 40px;
+    width: 100%;
+    outline: 0;
+    border: 1px solid #888888;
+    margin: 5px 0;
+    font-size: 15px;
+    line-height: 16px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    background-color: #F5F6F7;
+    opacity: 0.6;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    border-radius: 4px;
+
+}
+.head_input{
+    margin-top: 10px;
+    color: #606770;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+}
+.head_input p, h1{
+    display: inline-block;
+}
+.Gender, .birth, .name{
+    display: flex;
+    justify-content: space-between;
+
+}
+.name input{
+    width: 49%;
+
+}
+.birth select{
+    width: 32%;
+    justify-content: space-between;
+    background-color: white;
+}
+.Gender label{
+    height: 40px;  
+    width: 32%;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 4px;
+
+}
+.Gender label input{
+    width: 15%;
+}
+.contract_Policy p{
+    width: auto;
+    line-height: 12px;
+    font-size: 12px;
+    color: #777;
+    margin: 10px 0;
+    padding: 5px 0;    
+}
+
+.contract_input button{
+    background-color: #47c527;
+    display: block;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    height: 36px;
+    color: #F5F6F7;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: bold!important;
+    letter-spacing: normal;
+}
+.contract_input select:focus,
+.contract_input input:focus {
+    background-color: aquamarine;
+}
+.contract_input button:hover{
+    background-color: chartreuse;
+    font-size: 25px;
+}
+
