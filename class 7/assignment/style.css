@@ -1,0 +1,256 @@
+*{
+    margin: 0;padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.alignment{
+    width: 80%;
+    margin: auto;
+}
+
+/* Main menu section */
+.menu_block{
+    height: 60px;
+    background-color: aqua;
+    width: 100%;
+}
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.drop_menu{
+    display: flex;
+    /* gap: 2%; */
+    
+}
+.drop_menu li{
+    position: relative;
+}
+.drop_menu li a{
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 3px 3px 3px #888888;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:450;
+    margin: 0px 5px;
+    width: 100%;
+}
+.drop_menu li a:hover{
+    background-color: lightgrey;
+}
+/* start sub menu option */
+
+.sub_menu{
+    display: none;
+    /* background-color: #888888; */
+    margin-top: 10px;
+}
+.sub_menu li{
+    position: relative;
+    display: flex;
+
+}
+.drop_menu li:hover .sub_menu{
+    display: block;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+}
+.sub_menu li a{
+    margin: 2px 0;
+    text-align: center;
+    background-color: #47c527;
+}
+/* social media fixed section */
+.social_icon{
+    position: fixed;
+    top: 30%;
+    left: 0;
+    z-index: 10 ;
+}
+.social_icon a{
+    display: block;
+    height: 45px;
+    width: 45px;
+    background-color: teal;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+    color: antiquewhite ;
+}
+
+/* signup and contract form section  */
+.form_both{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url(eid1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;   /*parallel effect*/
+}
+
+/* signup form */
+.signup_block {
+    background-color: transparent;
+    margin: 40px 0 0;
+    padding: 10px 0;
+    width: 60%
+}
+.signup_main {
+    width: 432px;
+    min-height: 100px;
+    background-color: aliceblue;
+    padding: 10px;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px #888888;
+}
+.signup_headline{
+    height: 50px;
+    border-bottom: 0.5px solid #888888;
+    padding: 15px 0;
+    display: block;
+    margin-bottom: 15px;
+
+}
+.signup_headline img{
+    float: right;
+}
+.signup_input select,
+.signup_input label,
+.signup_input input{
+    height: 40px;
+    width: 100%;
+    outline: 0;
+    border: 1px solid #888888;
+    margin: 5px 0;
+    font-size: 15px;
+    line-height: 16px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    background-color: #F5F6F7;
+    opacity: 0.6;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    border-radius: 4px;
+}
+.head_input{
+    margin-top: 10px;
+    color: #606770;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+}
+.head_input p, .head_input{
+    display: inline;
+}
+.Gender, .birth, .name{
+    display: flex;
+    justify-content: space-between;
+}
+.name input{
+    width: 49%;
+}
+.birth select{
+    width: 32%;
+    justify-content: space-between;
+    background-color: white;
+}
+.Gender label{
+    height: 40px;  
+    width: 32%;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 4px;
+}
+.Gender label input{
+    width: 15%;
+}
+.signup_Policy p{
+    width: auto;
+    line-height: 12px;
+    font-size: 12px;
+    color: #777;
+    margin: 10px 0;
+    padding: 5px 0;    
+}
+.signup_input button{
+    background-color: #47c527;
+    display: block;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    height: 36px;
+    color: #F5F6F7;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: bold!important;
+    letter-spacing: normal;
+}
+.signup_input select:focus,
+.signup_input input:focus {
+    background-color: aquamarine;
+}
+.signup_input button:hover{
+    background-color: chartreuse;
+    font-size: 25px;
+}
+
+/* Contract form */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+
+.contract_part{
+    margin: 20px 0 0;
+    width: 40%
+}
+.contract_form_main{
+    width: 320px;
+    min-height: 100px;
+    background-color: teal;
+    padding: 15px;
+    margin: auto;
+    box-sizing: border-box;
+}
+.contract_input textarea,
+.contract_input button,
+.contract_input input{
+    height: 45px;
+    width: 100%;
+    outline: 0;
+    border: none;
+    margin: 5px 0 ;
+    font-size: 18px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 400;
+}
+.contract_input textarea{
+    height: 120px;
+    padding: 10px;
+    resize: none;
+}
+.contract_input button{
+    background-color: green;
+    color: beige;
+    font-size: 20px;
+}
+.contract_input input:focus, button:focus, textarea:focus {
+    background-color: aqua;
+}

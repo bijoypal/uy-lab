@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contain_section{
+    width: 100%;
+    background-color: #F0F2F5;
+    /* height: 500px; */
+}
+.alignment{
+    width: 80%;
+    margin: auto;
+}
+
+.fb_cover_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 10px;
+}
+.logo_section{
+    margin: 40px 10px;
+    padding: 30px;
+    width: 50%;
+   
+
+}
+.logo_section p{
+    color: #888888;
+    display: block;
+    text-align: left;
+}
+.login_section{
+    width: 50%;
+    min-height: 100px;
+    padding: 10px;
+    margin: auto;
+    
+}
+.login_main{
+    width: 80%;
+    box-sizing: border-box;
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px #888888;
+    background-color: #FFFFFF;
+    min-height: 100px;
+    padding: 15px;
+    margin: auto;
+}
+.login_input input{
+    height: 40px;
+    width: 100%;
+    outline: 0;
+    border: 1px solid #888888;
+    margin: 8px 0;
+    font-size: 15px;
+    line-height: 16px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    background-color: #F5F6F7;
+    opacity: 0.6;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    border-radius: 4px;
+}
+.login_Forgot{
+    text-align: center;
+    height: 45px;
+    margin: auto;
+    margin: 20px;
+    border-bottom: 0.5px solid #d3d0d0;
+}
+
+.login_Forgot p{
+    width: 50%;
+    display: inline;
+    font-size: 16px;
+    color: blue;
+    margin: 10px 0;   
+}
+.login_input button{
+    background-color: #1877F2;
+    display: block;
+    margin: 8px 0;
+    width: 100%;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    height: 40px;
+    color: #F5F6F7;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: bold!important;
+    letter-spacing: normal;
+}
+.create button{
+    width: 50%;
+    margin: auto;
+    background-color: #42B72A;;
+}
