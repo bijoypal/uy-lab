@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            margin: 40px;
+        }
+        .transation{
+            width: 500px;
+            height: 500px;
+            margin: auto;
+            background-color: aquamarine;
+            display: block;
+            position: relative;
+        }
+        .green{
+            width: 100px;
+            height: 100px;
+            background: green;
+            position: absolute;
+            top: 40px;
+            /* animation: movegreen 5s infinite; */
+            transition: width 2s, height 4s, transform 15s;
+        }
+        .green:hover{
+            width: 300px;
+            height: 300px;
+            transform: rotate(180deg);
+            background-color: #fff;
+            
+        }
+        .red{
+            width: 100px;
+            height: 100px;
+            background: red;
+            position: absolute;
+            top: 200px;
+            animation: move 5s linear infinite ;
+    
+        }
+        @keyframes move {
+            0%   {top: 0px; background: red; width: 100px;}
+            100% {top: 200px; background: yellow; width: 300px;}
+        }
+        @keyframes movegreen {
+            0%   {top: 0px;}
+            25%  {top: 100px;}
+            50%  {top: 200px;}
+            75%  {top: 300px;}
+            100% {top: 0px;}
+        }
+
+        /* .transation:hover .red{
+            left: 200px;
+            transform: scale(2);
+        } */
+    </style>
+</head>
+<body>
+    
+    <div class="transation">
+        <div class="green"></div>
+        <div class="red"></div>
+    </div>
+</body>
+</html>
