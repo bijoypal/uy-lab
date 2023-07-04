@@ -1,11 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500&display=swap');
 *{
     margin: 0;padding: 0;
 }
 a{
     text-decoration: none;
 }
+ul{
+    list-style: none;
 
-/* cover page css */
+}
+.alignment{
+    width: 80%;
+    margin: auto;
+}
+/* menu section start */
+.menu_block{
+    width: 100%;
+    background-color: #2f4371;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    font-family: Montserrat;
+    height: 60px;
+}
+
+/* menu style start */
+.main_menu{
+    display: flex;
+    line-height: 22px;
+    align-items: center;
+    
+}
+.main_menu li{
+    position: relative;
+    padding: 0 14px;
+    z-index: 20;
+    margin: 9px 0;
+    font-size: 14px;
+    display: block;
+}
+.main_menu li a{
+    color: white;
+    display: block;
+}
+
+
+/* menu buttons section */
+.menu_btn a{
+    background-color: #009ee3;
+    padding: 8px 24px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.menu_btn a:hover{
+    color: yellow;
+    /* box-shadow: 0px 1px 10px 2px yellow; */
+    border-bottom: 2px solid yellow;
+    box-sizing: border-box;
+}
+
+/* menu style end */
+
+/* social media icons */
+.social_icons a{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-right: 5px;
+    
+}
+
+/* menu section end */
+
+/* logo + search + login section start */
+.search_block{
+    display: block;
+    width: 100%;
+    
+}
+
+/* logo + search + login section end */
+
+
+/* cover page start */
 .hero_part{
     margin-top: 50px;
     background: url(img/banner.png);
@@ -13,10 +95,6 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
-.alignment{
-    width: 80%;
-    margin: auto;
 }
 .hero_contant{
     font-family: "Roboto", Sans-serif;
@@ -49,3 +127,4 @@ a{
         text-align: center;
         line-height: 50px;
 }
+/* cover page end */
