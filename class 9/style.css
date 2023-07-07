@@ -26,6 +26,9 @@ ul{
     position: relative;
     
 }
+.menu_section{
+    width: 90%;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -40,11 +43,12 @@ ul{
     display: flex;
     line-height: 22px;
     align-items: center;
+    width: 100%;
     
 }
 .main_menu li{
     position: relative;
-    padding: 0 14px;
+    padding: 0 18px;
     z-index: 20;
     margin: 9px 0;
     font-size: 14px;
@@ -57,22 +61,37 @@ ul{
 
 
 /* menu buttons section */
-.menu_btn a{
+.main_menu li.menu_btn a{
     background-color: #009ee3;
     padding: 8px 24px;
     border-radius: 30px;
     font-weight: bold;
 }
 
-.menu_btn a:hover{
+.main_menu li.menu_btn a:hover{
     color: yellow;
     border-bottom: 2px solid yellow;
     box-sizing: border-box;
 }
 
+.menu_bar_btn{
+    display: none ;
+  
+}
+.menu_bar_btn a{
+    padding: 8px;
+    color: white;
+    border: 1px solid #009ee3 ;
+    border-radius: 8px;
+}
+
+
 /* menu style end */
 
 /* social media icons */
+.social_icons{
+    width: 10%;
+}
 .social_icons a{
     text-align: center;
     color: #FFFFFF;
@@ -101,6 +120,9 @@ ul{
     display: block;
     width: 25%;
 }
+.logo img{
+    width: 100%;
+}
 .search_bar{
     width: 45%;
     height: 45px;
@@ -122,7 +144,8 @@ ul{
     padding: 0 20px;
     font-size: 14px;
 }
-.search_bar a.search {
+.search_bar a.search,
+.login_section a.search {
     padding: 15px;
     background-color: #2BA6DE;
     color: #fff;
@@ -130,6 +153,7 @@ ul{
 .login_section{
     width: 30%;
 }
+
 .login_menu{
     display: flex;
     line-height: 22px;
@@ -142,6 +166,7 @@ ul{
     z-index: 20;
     margin: 9px 0;
     display: block;
+    
 
 }
 .login_menu li a{
@@ -149,16 +174,22 @@ ul{
     font-weight: 300;
     font-size: 14px;
 }
+.login_menu li a.search {
+    display: none;
+}
 .login_menu li i{
     margin-right: 8px;
     color: green;
 }
-.login_menu li:nth-child(2)  a{
+.login_menu li:nth-child(3) a{
     color: white;
     padding: 15px 40px;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 16px;
+    background-color: #009ee3;
+    border-radius: 30px;
+    font-weight: bold;
 }
 .login_menu li:last-child i{
     color: #2ba6de;
@@ -235,6 +266,11 @@ ul{
 .info_contant:last-child{
     border-right: 0.5px  solid rgb(173, 151, 151);
 }
+.info_contant img{
+    width: 50px;
+    height: 57px;
+
+}
 .info_contant h4{
     font-size: 19px;
     font-weight: 500;
@@ -303,6 +339,10 @@ ul{
     text-align: center;
     border: 1px solid rgb(173, 151, 151);
 }
+.course_con img{
+    height: 143px;
+    width: 143px;
+}
 .course_con h3{
     margin: 20px auto;
     color: #000000;
@@ -321,11 +361,13 @@ ul{
     color: #fff;
     font-weight: 400;
     display: flex;
+    justify-content: center;
+    
 }
 
 .course_foot_detail{
     width: 65%;
-    padding: 40px;
+    padding: 20px;
 }
 .course_foot_detail h3{
     text-transform: uppercase;
@@ -385,7 +427,6 @@ ul{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    flex-direction: column;
 }
 .nab_con{
     background-color: #2158C0;
@@ -405,6 +446,94 @@ ul{
     color: #fff;
 }
 /* about us Block end */
+
+/* Question block start */
+.question_block{
+    width: 100%;
+    margin: 60px 0;
+    background: url("img/Question.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.ques_main{
+    padding: 60px 0 ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+.ques_head{
+    text-align: left;
+    width: 100%;
+}
+.ques_head h3{
+    font-size: 65px;
+    font-weight: 400;
+}  
+.ques_head p{
+    font-weight: 400;
+    margin-bottom: 0;
+    font-size: 22px;
+}
+.ques_form_sec{
+    text-align: left;
+    width: 100%;
+}
+
+.ques_form_sec input,
+.ques_form_sec label{
+    display: block;
+    height: 60px;
+    padding: 0 20px;
+    border: 1px solid #0D5DD1;
+    width: 50%;
+    background-color: #F6F6FE;
+    margin: 20px 0 40px;
+    font-size: 16px;
+
+}
+.ques_form_sec input[type=text]:focus{
+    background-color: #fff;
+    border: 1px solid #0D5DD1;;
+    }
+
+.ques_form_sec label select{
+    background-color:#F6F6FE ;
+    border-radius: 15px;
+    width: 95%;
+    height: 55px;
+    padding: 0 20px;
+    font-size: 16px;
+    border: 1px solid gray;;
+}
+
+.ques_form_sec label select option{
+    font-size: 20px;
+    display: block;
+}
+.ques_form_sec select option:hover{
+    background-color: #0D5DD1;
+}
+
+.ques_form_sec button{
+    color: white;
+    background-color: #0D5DD1;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 25px;
+    letter-spacing: 3px;
+    width: 50%;
+    border: none;
+    border-radius: 30px;
+    margin-left: 20px;
+ 
+}
+
+/* Question block end */
 
 /* footer block start */
     .footer_block{

@@ -1,0 +1,1012 @@
+@media (max-width: 575.9px) {
+    .alignment {
+        width: 90%;
+    }
+     /* menu section */
+     .menu_section {
+        width: 80%;
+    }
+    .navbar {
+        justify-content: space-between;
+        padding-left: 0px;
+        height: 50px;
+    }
+    .main_menu {
+        display: none;
+    }
+    .menu_bar_btn{
+        display: block;
+    }
+    .social_icons {
+        width: 20%;
+        display: inherit;
+
+    }
+    .social_icons a {
+        font-size: 14px;
+        margin-right: 8px;
+    }
+   /* logo section */
+   .search_main{
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .logo{
+        width: 100%;
+        text-align: end;
+    }
+    .logo a{
+        display: inline;
+    }
+    .logo img{
+        width: 245px;
+    }
+    .search_bar{
+        display: none;
+    }
+    .login_section{
+        width: 100%;
+        margin: 30px 10px 10px;
+    }
+    .login_menu {
+        line-height: 5px;
+    }
+    .login_menu li {
+        padding: 0px 1px;
+        margin: 6px 4px;
+    }
+    .login_menu li a {
+        font-weight: 200;
+        font-size: 14px;
+    }
+    .login_menu li a.search {
+        display: inline;
+        background-color: transparent;
+    }
+    .login_menu li:nth-child(3)  a {
+        padding: 9px 17px;
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .login_menu li:last-child i {
+        font-size: 24px;
+    }
+    /* cover page  */
+    .hero_part {
+        padding: 40px 0;
+        background-position: top left;
+        background-size: 1000px auto;
+        text-align: center;
+    }
+    .hero_contant h1 {
+        font-size: 20px;
+    }
+    .hero_contant p {
+        font-size: 12px;
+        font-weight: 200;
+        margin-bottom: 7px;
+    }
+    .hero_btn {
+        font-size: 15px;
+        font-weight: 400;
+        height: 30px;
+        width: 150px;
+        line-height: 30px;
+        display: inline-block;
+    }
+  
+    /* info div */
+    .info_block {
+        top: 370px;
+    }
+    .info_main{
+        flex-wrap: wrap;
+    }
+    .info_contant {
+        padding: 10px;
+        width: 50%;
+    }
+    .info_contant img {
+        width: 35px;
+        height: 35px;
+    }
+    .info_contant h4 {
+        font-size: 18px;
+        font-weight: 300;
+        margin: 6px 0;
+    }
+    .info_contant p {
+        font-size: 12px;
+        font-weight: 200;
+    }
+    /* course block */
+    .course_block {
+        padding: 150px 0 10px;
+        margin-top: 78px;
+    }
+    .course_head {
+        padding-bottom: 5px;
+    }
+    .course_head h3 {
+        font-size: 23px;
+        margin: 8px 0;
+    }
+    .course_head p {
+        font-size: 13px;
+        margin-bottom: 6px;
+    }
+    .course_con_main{
+        justify-content: center;
+        align-items: center;
+    }
+    .course_con {
+        padding: 8px 0;
+        width: 80%;
+    }
+    .course_con img {
+        height: 75px;
+        width: 75px;
+    }
+    .course_con h3 {
+        margin: 10px auto;
+        font-size: 15px;
+    }
+    .course_foot_detail{
+        width: 90%;
+        padding: 15px;
+        text-align: center;
+    }
+    .course_foot_detail h3 {
+        font-size: 26px;
+        margin-bottom: 8px;
+    }
+    .course_foot_detail p {
+        line-height: 12px;
+        font-size: 10px;
+        margin-bottom: 6px;
+    }
+    .course_foot_detail a {
+        height: 35px;
+        width: 175px;
+        line-height: 35px;
+        display: inline-block;
+    }
+    .foot_image{
+        display: none;
+    }
+    
+    /* about us section */
+    .about_con_main{
+        flex-direction: column;
+    }
+    .about_video {
+        width: 100%;
+        height: 200px;
+        padding: 10px 5px ;
+    }
+    .videos_nab{
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .nab_con{
+        width: 80%;
+        height: 38px;
+    }
+    .nab_con:last-child{
+        width: 80%;
+    }
+    .nab_con h3 {
+        font-size: 15px;
+        font-weight: 200;
+    }
+    .nab_con i {
+        font-size: 28px;
+    }
+
+    /* question content */
+    .question_block{
+        margin: 10px 0;
+    }
+    .ques_main {
+        padding: 20px 0;
+    }
+    .ques_head{
+        padding-bottom: 10px;
+        text-align: center;
+        color: forestgreen;
+        font-weight: 600;
+    }
+
+    .ques_form_sec{
+        text-align: center;
+    }
+    .ques_form_sec input, .ques_form_sec label {
+        height: 35px;
+        padding: 0 4px;
+        width: 80%;
+        margin: 0px auto 14px;
+        font-size: 16px;
+    }
+    .ques_form_sec label select {
+        border-radius: 10px;
+        width: 88%;
+        height: 32px;
+        padding: 0px 16px;
+        font-size: 16px;
+    }
+    .ques_form_sec button {
+        padding: 8px 10px;
+        font-weight: 400;
+        font-size: 19px;
+        width: 55%;
+        margin-left: 18px;
+    }
+
+
+
+    /* footer content */
+    .footer_main {
+        padding: 15px 0;
+    }
+    .footer_block {
+        font-size: 12px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.9px) {
+    .alignment {
+        width: 85%;
+    }
+     /* menu section */
+     .menu_section {
+        width: 95%;
+    }
+    .navbar {
+        justify-content: space-between;
+        padding-left: 0px;
+        height: 50px;
+    }
+    .main_menu {
+        line-height: 12px;
+        width: 100%;
+        display: none;
+    }
+    .main_menu li {
+        padding: 0 5px;
+        margin: 7px 0;
+        font-size: 10px;
+    }
+    .menu_bar_btn{
+        display: block;
+    }
+
+    .social_icons {
+        width: 10%;
+        display: inherit;
+
+    }
+    .social_icons a {
+        font-size: 10px;
+        margin-right: 5px;
+    }
+   /* logo section */
+   .search_main{
+        width: 90%;
+    }
+    .logo{
+        width: 45%;    
+    }
+    .logo img{
+        width: 100%;
+    }
+    .search_bar{
+        display: none;
+    }
+    .login_section{
+        width: 55%;
+    }
+    .login_menu {
+        line-height: 5px;
+    }
+    .login_menu li {
+        padding: 0px 1px;
+        margin: 6px 4px;
+    }
+    .login_menu li a {
+        font-weight: 200;
+        font-size: 14px;
+    }
+    .login_menu li a.search {
+        display: inline;
+        background-color: transparent;
+    }
+    .login_menu li:nth-child(3)  a {
+        padding: 9px 17px;
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .login_menu li:last-child i {
+        font-size: 24px;
+    }
+    /* cover page  */
+    .hero_part {
+        padding: 65px 0;
+        background-position: top left;
+        background-size: 1000px auto;
+        text-align: center;
+    }
+    .hero_contant h1 {
+        font-size: 26px;
+    }
+    .hero_contant p {
+        font-size: 15px;
+        font-weight: 300;
+        margin-bottom: 10px;
+    }
+    .hero_btn {
+        font-size: 15px;
+        font-weight: 400;
+        height: 30px;
+        width: 150px;
+        line-height: 30px;
+        display: inline-block;
+    }
+  
+    /* info div */
+    .info_block {
+        top: 345px;
+    }
+    .info_main{
+        flex-wrap: wrap;
+    }
+    .info_contant {
+        padding: 10px;
+        width: 50%;
+    }
+    .info_contant img {
+        width: 45px;
+        height: 45px;
+    }
+    .info_contant h4 {
+        font-size: 20px;
+        font-weight: 400;
+        margin: 9px 0;
+    }
+    .info_contant p {
+        font-size: 14px;
+        font-weight: 200;
+    }
+    /* course block */
+    .course_block {
+        padding: 150px 0 10px;
+        margin-top: 78px;
+    }
+    .course_head {
+        padding-bottom: 5px;
+    }
+    .course_head h3 {
+        font-size: 25px;
+        margin: 10px 0;
+    }
+    .course_head p {
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+    .course_con {
+        padding: 8px 0;
+        width: 49.5%;
+    }
+    .course_con img {
+        height: 75px;
+        width: 75px;
+    }
+    .course_con h3 {
+        margin: 10px auto;
+        font-size: 15px;
+    }
+    .course_foot_detail{
+        width: 90%;
+        padding: 15px;
+        text-align: center;
+    }
+    .course_foot_detail h3 {
+        font-size: 30px;
+        margin-bottom: 8px;
+    }
+    .course_foot_detail p {
+        line-height: 20px;
+        font-size: 11px;
+        margin-bottom: 8px;
+    }
+    .course_foot_detail a {
+        height: 35px;
+        width: 175px;
+        line-height: 35px;
+        display: inline-block;
+    }
+    .foot_image{
+        display: none;
+    }
+    
+    /* about us section */
+    .about_con_main{
+        flex-direction: column;
+    }
+    .about_video {
+        width: 100%;
+        height: 200px;
+        padding: 10px 5px ;
+    }
+    .videos_nab{
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .nab_con{
+        width: 48.9%;
+        height: 38px;
+    }
+    .nab_con:last-child{
+        width: 70%;
+
+        
+    }
+    .nab_con h3 {
+        font-size: 15px;
+        font-weight: 200;
+    }
+    .nab_con i {
+        font-size: 28px;
+    }
+    
+    /* question content */
+    .question_block{
+        margin: 20px 0;
+    }
+    .ques_main {
+        padding: 20px 0;
+    }
+    .ques_head{
+        padding-bottom: 10px;
+        text-align: center;
+        color: forestgreen;
+        font-weight: 600;
+    }
+
+    .ques_form_sec{
+        text-align: center;
+    }
+    .ques_form_sec input, .ques_form_sec label {
+        height: 35px;
+        padding: 0 4px;
+        width: 80%;
+        margin: 0px auto 14px;
+        font-size: 16px;
+    }
+    .ques_form_sec label select {
+        border-radius: 10px;
+        width: 88%;
+        height: 32px;
+        padding: 0px 16px;
+        font-size: 16px;
+    }
+    .ques_form_sec button {
+        padding: 8px 10px;
+        font-weight: 400;
+        font-size: 19px;
+        width: 55%;
+        margin-left: 18px;
+    }
+
+
+
+    /* footer content */
+    .footer_main {
+        padding: 15px 0;
+    }
+    .footer_block {
+        font-size: 12px;
+    }
+
+    
+}
+@media (min-width: 768px) and (max-width: 991.9px) {
+    .alignment {
+        width: 90%;
+    }
+     /* menu section */
+    .menu_section {
+        width: 95%;
+    }
+    .navbar {
+        justify-content: space-between;
+        padding-left: 0px;
+        height: 50px;
+    }
+    .main_menu {
+        line-height: 12px;
+        width: 100%;
+    }
+    .main_menu li {
+        padding: 0 5px;
+        margin: 7px 0;
+        font-size: 10px;
+    }
+
+    .social_icons {
+        width: 5%;
+        display: inherit;
+    }
+    .social_icons a {
+        font-size: 10px;
+        margin-right: 5px;
+    }
+   /* logo section */
+    .logo{
+        width: 20%;    
+    }
+    .logo img{
+        width: 100%;
+    }
+    .search_bar{
+        width: 40%;
+    }
+    .search_bar a.bar {
+        padding: 10px;
+    }
+    .search_bar input.search_input {
+        padding: 0 10px;
+        font-size: 12px;
+    }
+    .search_bar a.search {
+        padding: 9px;
+    }
+    .login_section{
+        width: 40%;
+    }
+    .login_menu {
+        line-height: 5px;
+    }
+    .login_menu li {
+        padding: 0px 5px;
+        margin: 6px 0;
+    }
+    .login_menu li a {
+        font-weight: 100;
+        font-size: 12px;
+    }
+    .login_menu li:nth-child(3)  a {
+        padding: 8px 30px;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .login_menu li:last-child i {
+        font-size: 16px;
+    }
+    /* cover page  */
+    .hero_part {
+        padding: 65px 0;
+    }
+    .hero_contant h1 {
+        font-size: 20px;
+    }
+    .hero_contant p {
+        font-size: 10px;
+        font-weight: 300;
+        margin-bottom: 10px;
+    }
+    .hero_btn {
+        font-size: 13px;
+        font-weight: 400;
+        height: 25px;
+        width: 120px;
+        line-height: 25px;
+    }
+    /* info div */
+    .info_block {
+        top: 310px;
+    }
+    .info_contant {
+        padding: 10px;
+    }
+    .info_contant img {
+        width: 35px;
+        height: 35px;
+    }
+    .info_contant h4 {
+        font-size: 13px;
+        font-weight: 400;
+        margin: 9px 0;
+    }
+    .info_contant p {
+        font-size: 9px;
+        font-weight: 200;
+    }
+    /* course block */
+    .course_block {
+        padding: 35px 0;
+        margin-top: 47px;
+    }
+    .course_head h3 {
+        font-size: 30px;
+        margin: 15px 0;
+    }
+    .course_head p {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+    .course_con {
+        padding: 8px 0;
+        width: 33%;
+    }
+    .course_con img {
+        height: 75px;
+        width: 75px;
+    }
+    .course_con h3 {
+        margin: 10px auto;
+        font-size: 15px;
+    }
+    .course_con:nth-last-child(1), 
+    .course_con:nth-last-child(2){
+        width: 49.7%;
+    }
+    .course_foot_detail h3 {
+        font-size: 30px;
+        margin-bottom: 8px;
+    }
+    .course_foot_detail p {
+        line-height: 25px;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .course_foot_detail a {
+        height: 40px;
+        width: 150px;
+        line-height: 40px;
+    }
+    
+    /* about us section */
+    .about_video, .videos_nab {
+        height: 300px;
+    }
+    .nab_con h3 {
+        font-size: 13px;
+        font-weight: 200;
+    }
+    .nab_con i {
+        font-size: 23px;
+    }
+
+    /* question content */
+    .question_block{
+        margin: 20px 0;
+    }
+    .ques_main {
+        padding: 20px 0;
+    }
+    .ques_head{
+        padding-bottom: 10px;
+    }
+    .ques_form_sec input, .ques_form_sec label {
+    height: 40px;
+    padding: 0 4px;
+    width: 45%;
+    margin: 0px 0 14px;
+    font-size: 15px;
+    }
+    .ques_form_sec label select {
+    border-radius: 30px;
+    width: 88%;
+    height: 37px;
+    padding: 0 16px;
+    font-size: 14px;
+    }
+    .ques_form_sec button {
+    padding: 8px 10px;
+    font-weight: 400;
+    font-size: 19px;
+    width: 38%;
+    margin-left: 18px;
+    }
+
+    /* footer content */
+    .footer_main {
+        padding: 15px 0;
+    }
+    .footer_block {
+        font-size: 12px;
+    }
+
+}
+@media (min-width: 992px) and (max-width: 1199.9px) {
+   
+     /* menu section */
+    .menu_section {
+        width: 95%;
+    }
+    .navbar {
+        justify-content: space-between;
+        padding-left: 0px;
+        height: 50px;
+    }
+    .main_menu {
+        line-height: 12px;
+        width: 100%;
+    }
+    .main_menu li {
+        padding: 0 9px;
+        margin: 7px 0;
+        font-size: 11px;
+    }
+
+    .social_icons {
+        width: 5%;
+        display: inherit;
+    }
+    .social_icons a {
+        font-size: 15px;
+        margin-right: 8px;
+    }
+   /* logo section */
+    .logo{
+        width: 20%;    
+    }
+    .logo img{
+        width: 100%;
+    }
+    .search_bar{
+        width: 45%;
+    }
+    .search_bar a.bar {
+        padding: 14px;
+    }
+    .search_bar input.search_input {
+        padding: 0 14px;
+        font-size: 15px;
+    }
+    .search_bar a.search {
+        padding: 14px;
+    }
+    .login_section{
+        width: 35%;
+    }
+    .login_menu {
+        line-height: 5px;
+    }
+    .login_menu li {
+        padding: 0px 14px;
+        margin: 4px 0;
+    }
+    .login_menu li a {
+        font-weight: 100;
+        font-size: 12px;
+    }
+    .login_menu li:nth-child(3)  a {
+        padding: 12px 25px;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .login_menu li:last-child i {
+        font-size: 18px;
+    }
+    /* cover page  */
+    .hero_part {
+        padding: 75px 0;
+    }
+    .hero_contant h1 {
+        font-size: 32px;
+    }
+    .hero_contant p {
+        font-size: 16px;
+        font-weight: 300;
+        margin-bottom: 10px;
+    }
+    .hero_btn {
+        font-size: 18px;
+        font-weight: 600;
+        height: 36px;
+        width: 150px;
+        line-height: 36px;
+    }
+    /* info div */
+    .info_block {
+        top: 395px;
+    }
+    .info_contant {
+        padding: 20px 25px;
+    }
+    .info_contant img {
+        width: 45px;
+        height: 45px;
+    }
+    .info_contant h4 {
+        font-size: 18px;
+        font-weight: 400;
+        margin: 9px 0;
+    }
+    .info_contant p {
+        font-size: 14px;
+        font-weight: 200;
+    }
+    /* course block */
+    .course_block {
+        padding: 55px 0;
+        margin-top: 90px;
+    }
+    .course_head h3 {
+        font-size: 30px;
+        margin: 15px 0;
+    }
+    .course_head p {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+    .course_con {
+        padding: 8px 0;
+        width: 33%;
+    }
+    .course_con img {
+        height: 75px;
+        width: 75px;
+    }
+    .course_con h3 {
+        margin: 10px auto;
+        font-size: 15px;
+    }
+    .course_con:nth-last-child(1), 
+    .course_con:nth-last-child(2){
+        width: 49.7%;
+    }
+    .course_foot_detail h3 {
+        font-size: 30px;
+        margin-bottom: 8px;
+    }
+    .course_foot_detail p {
+        line-height: 25px;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .course_foot_detail a {
+        height: 40px;
+        width: 150px;
+        line-height: 40px;
+    }
+    
+    /* about us section */
+    .about_video, .videos_nab {
+        height: 300px;
+    }
+    .nab_con h3 {
+        font-size: 13px;
+        font-weight: 200;
+    }
+    .nab_con i {
+        font-size: 23px;
+    }
+
+    /* question content */
+    .question_block{
+        margin: 20px 0;
+    }
+    .ques_main {
+        padding: 20px 0;
+    }
+    .ques_head{
+        padding-bottom: 10px;
+    }
+    .ques_form_sec input, .ques_form_sec label {
+    height: 40px;
+    padding: 0 4px;
+    width: 45%;
+    margin: 0px 0 14px;
+    font-size: 15px;
+    }
+    .ques_form_sec label select {
+    border-radius: 30px;
+    width: 88%;
+    height: 37px;
+    padding: 0 16px;
+    font-size: 14px;
+    }
+    .ques_form_sec button {
+    padding: 8px 10px;
+    font-weight: 400;
+    font-size: 19px;
+    width: 38%;
+    margin-left: 18px;
+    }
+
+    /* footer content */
+    .footer_main {
+        padding: 15px 0;
+    }
+    .footer_block {
+        font-size: 12px;
+    }
+
+
+    }
+@media (min-width: 1200px) and (max-width: 1399.9px) {
+
+    .main_menu li {
+        padding: 0px 10px;
+        font-size: 13px;
+    }
+
+    .login_menu li {
+        padding: 0 10px;
+    }
+    .login_menu li i {
+        margin-right: 5px;
+    }
+    .login_menu li:nth-child(3) a {
+        padding: 13px 35px;
+        font-size: 15px;
+    }
+    .login_menu li:last-child i {
+        font-size: 20px;
+    }
+    .hero_contant h1 {
+        font-size: 48px;
+    }
+    .hero_contant p {
+        font-size: 18px;
+    }
+    .hero_btn {
+        font-size: 25px;
+        height: 45px;
+        line-height: 45px;
+    }
+    .course_block {
+        padding: 32px 0;
+        margin-top: 160px;
+    }
+    .course_head {
+        padding-bottom: 10px;
+    }
+    .course_con {
+        padding: 30px 0;
+        width: 24.5%;
+    }
+}
+@media (min-width: 1400px) {
+    .main_menu li {
+        padding: 0px 15px;
+        font-size: 15px;
+    }
+    .social_icons a {
+        font-size: 17px;
+        margin-right: 8px;
+    }
+    .search_bar a.bar {
+        padding: 20px;
+    }
+    .search_bar input.search_input {
+        width: 100%;
+        height: 100%;
+        padding: 0px 25px;
+        font-size: 18px;
+    }
+    .search_bar a.search, .login_section a.search {
+        padding: 20px;
+    }
+    .login_menu li {
+        padding: 0px 5px;
+    }
+    .login_menu li a {
+        font-size: 18px;
+    }
+    .login_menu li:nth-child(3) a {
+        padding: 18px 50px;
+        font-size: 20px;
+
+    }
+}
