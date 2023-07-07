@@ -34,13 +34,13 @@
     }
     .logo{
         width: 100%;
-        text-align: end;
+        text-align: center;
     }
     .logo a{
         display: inline;
     }
     .logo img{
-        width: 245px;
+        width: 40%;
     }
     .search_bar{
         display: none;
@@ -301,7 +301,7 @@
         width: 45%;    
     }
     .logo img{
-        width: 100%;
+        width: 40%;
     }
     .search_bar{
         display: none;
@@ -358,7 +358,7 @@
   
     /* info div */
     .info_block {
-        top: 345px;
+        top: 355px;
     }
     .info_main{
         flex-wrap: wrap;
@@ -553,7 +553,7 @@
         width: 20%;    
     }
     .logo img{
-        width: 100%;
+        width: 80%;
     }
     .search_bar{
         width: 40%;
@@ -760,7 +760,7 @@
         width: 20%;    
     }
     .logo img{
-        width: 100%;
+        width: 80%;
     }
     .search_bar{
         width: 45%;
