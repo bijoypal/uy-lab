@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+    text-align: center;
+}
+
+
+button{
+    padding: 20px 40px;
+    background-color: azure;
+    margin: 50px;
+    color: blueviolet;
+    position: relative;
+    display: inline-block;
+    font-size: 22px;
+    transition: transform 0.5s;
+}
+
+button::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background-color: brown;
+    transform-origin: 0 0;
+    transition:  transform 1s cubic-bezier(0.1, 0.2, 1.0, 0.1) ;
+    transform: scalex(0);
+
+ 
+}
+
+button:hover::before{
+    transform: scalex(1);
+}
+
+button::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+    transform-origin: 0 0;
+    transition: transform 1s cubic-bezier(0.1, 0.2, 1.0, 0.1);
+    transform: scalex(0);
+}
+button:hover::after{
+    transform: scalex(1);
+}
+
+
+
+
+.bf h1{
+    position: relative;
+    display: inline;
+    margin-bottom: 0;
+    line-height: 0;
+    /* border: 1px solid; */
+}
+h1::before {
+    position: absolute;
+    content: "";
+    left: 50%;
+    top: 0%;
+    width: 50%;
+    transform: translateX(-50%);
+    height: 5px;
+    background-color: aqua;
+    /* border-radius: 50%; */
+}
+
+
+h1::after{
+    position: absolute;
+    content: "";
+    left: 50%;
+    bottom:-10px;
+    width: 50%;
+    height: 5px;
+    transform: translateX(-50%);
+    background-color: aqua;
+    /* border-radius: 50%; */
+}
+
+    </style>
+</head>
+<body>
+    
+    <button>Submit</button>
+
+    <div class="bf">
+        <h1>test</h1>
+    </div>
+
+</body>
+</html>
