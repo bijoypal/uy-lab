@@ -36,6 +36,9 @@ ul{
 }
 
 /* menu style start */
+.menu_section{
+    width: 90%;
+}
 .main_menu{
     display: flex;
     line-height: 22px;
@@ -57,14 +60,14 @@ ul{
 
 
 /* menu buttons section */
-.menu_btn a{
+.main_menu li.menu_btn a{
     background-color: #009ee3;
     padding: 8px 24px;
     border-radius: 30px;
     font-weight: bold;
 }
 
-.menu_btn a:hover{
+.main_menu li.menu_btn a:hover{
     color: yellow;
     border-bottom: 2px solid yellow;
     box-sizing: border-box;
@@ -73,6 +76,9 @@ ul{
 /* menu style end */
 
 /* social media icons */
+.social_icons{
+    width: 10%;
+}
 .social_icons a{
     text-align: center;
     color: #FFFFFF;
@@ -158,6 +164,9 @@ ul{
     text-transform: uppercase;
     font-weight: 600;
     font-size: 16px;
+    background-color: #009ee3;
+    border-radius: 30px;
+    font-weight: bold;
 }
 .login_menu li:last-child i{
     color: #2ba6de;
