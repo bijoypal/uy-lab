@@ -14,9 +14,10 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <nav class="navbar navbar-expand-lg navbar-light">
+
+                <nav class="navbar navbar-expand-lg navbar-light fixed-top custom">
                     <div class="container-fluid">
-                      <a class="navbar-brand" href="#">Logo</a>
+                      <a class="navbar-brand" href="#">UY LAB</a>
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon">hhhh</span>
                       </button>
@@ -27,7 +28,7 @@
                           </li>
                           <li class="nav-item dropdown ">
                             <button class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                              Dropdown
+                              Services
                             </button>
                             <ul class="dropdown-menu dropdown-menu-dark">
                               <li><a class="dropdown-item" href="#">Action</a></li>
@@ -35,49 +36,78 @@
                               <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
                           </li>
-
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link" href="#">About</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#team">Team</a>
                           </li>
-
-
+                          <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                          </li>
                         </ul>
                       </div>
                     </div>
-                  </nav>         
+                </nav>         
             </div>
         </div>
     </div>
 </header>
-<main>
-    <section>
-        <div class="container">
-            <div class="row d-flex justify-content-center">
-                <div class="col-md-6">
-                    <div class="wrapper text-center">
-                        <h5>bootstrap</h5>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="wrapper text-center">
-                        <h5>bootstrap</h5>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="wrapper text-center">
-                        <h5>bootstrap</h5>
-                    </div>
-                </div>
-            </div>
+
+<!-- sider section start -->
+      <div class="carousel slide" data-bs-ride="carousel" id="carouselExampleIndicators">
+        <div class="carousel-indicators">
+          <button aria-label="Slide 1" class="active" data-bs-slide-to="0" data-bs-target="#carouselExampleIndicators" type="button"></button> <button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#carouselExampleIndicators" type="button"></button> <button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#carouselExampleIndicators" type="button"></button>
         </div>
-    </section>
-</main>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img alt="..." class="d-block w-100" src="img/pexels1.jpg">
+            <div class="carousel-caption">
+              <h5>Your Dream House</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p>
+              <p><a class="btn btn-warning mt-3" href="#">Learn More</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img alt="..." class="d-block w-100" src="img/pexels2.jpg">
+            <div class="carousel-caption">
+              <h5>Always Dedicated</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p>
+              <p><a class="btn btn-warning mt-3" href="#">Learn More</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img alt="..." class="d-block w-100" src="img/pexels3.jpg">
+            <div class="carousel-caption">
+              <h5>True Construction</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p>
+              <p><a class="btn btn-warning mt-3" href="#">Learn More</a></p>
+            </div>
+          </div>
+        </div><button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleIndicators" type="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="visually-hidden">Previous</span></button> <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleIndicators" type="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="visually-hidden">Next</span></button>
+      </div>
+      
+       <!-- about section starts -->
+	<section class="about section-padding" id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-12 col-12">
+					<div class="about-img"><img alt="" class="img-fluid" src="img/about.jpg"></div>
+				</div>
+				<div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+					<div class="about-text">
+						<h2>We Provide the Best Quality<br>
+						Services Ever</h2>
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, labore reiciendis. Assumenda eos quod animi! Soluta nesciunt inventore dolores excepturi provident, culpa beatae tempora, explicabo corporis quibusdam corrupti. Autem, quaerat. Assumenda quo aliquam vel, nostrum explicabo ipsum dolor, ipsa perferendis porro doloribus obcaecati placeat natus iste odio est non earum?</p><a class="btn btn-warning" href="#">Learn More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- about section Ends -->
+
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
