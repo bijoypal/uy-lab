@@ -7,8 +7,8 @@ body{
 .middle{
     position: absolute;
     top: 5%;
-    left: 20%;
-    /* transform: translate(-50%, -50%); */
+    left: 10%;
+    /* transform: translate(-5%, -10%); */
 }
 .btn{
     position: relative;
@@ -126,10 +126,13 @@ body{
 }
 .btn7:hover::before{
     transform: scaleY(1);
-}
+ }
 
 
-.btn10::before, .btn11::before{
+.btn10::before, 
+.btn11::before, 
+.btn12::before, 
+.btn13::before {
     left: 0;
     width: 100%;
     background-color: #3498db;
@@ -154,3 +157,22 @@ body{
 .btn11:hover::before{
     height: 0%;
 }
+
+.btn12::before{
+    bottom: 0;
+    height: 0%;
+    border-radius: 0 0 50% 50%;
+}
+.btn12:hover::before{
+    height: 180%;
+}
+
+.btn13::before{
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+    height: 0%;
+}
+.btn13:hover::before{
+    height: 180%;
+}
+

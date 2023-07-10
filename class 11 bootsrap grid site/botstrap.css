@@ -1,0 +1,22 @@
+
+/* header-area-style */
+.header_area {
+    background: #eee;
+}
+
+.header_area .custom .nav-link {
+    padding: 6px 25px;
+    margin: 0 8px;
+    font-size: 18px;
+}
+.header_area .custom .nav-link:hover {
+   background: #F7F7F7 ;
+   border: 1px solid rgb(41, 39, 39);
+   border-radius: 8px;
+}
+
+.wrapper {
+    background: yellow;
+    padding: 50px;
+    margin-bottom: 24px;
+}
