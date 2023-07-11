@@ -50,8 +50,11 @@
 	line-height: 0.3;
 	background: #fff;
 }
+.header_area .custom .nav-link {
+    margin:0 10px;
+ }
 .header_area .custom .nav-link:hover {
-    background: #F7F7F7 ;
+    background: rgb(243, 240, 240);
     border: 1px solid rgb(41, 39, 39);
     border-radius: 8px;
  }
