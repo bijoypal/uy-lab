@@ -1,0 +1,95 @@
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Oswald:wght@400;700&display=swap');
+  * {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+  ul{
+    list-style: none;
+    margin: 0;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  img{
+    vertical-align: middle;
+  }
+  p{
+    margin: 0;
+  }
+  h1, h2, h3, h4, h5, h6, button{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase ; 
+  }
+  :root{
+    --color_1: #0872b9 ;
+    --color_2: #5bc5f4;
+    --oswald: 'Oswald', sans-serif;
+  }
+  /* common/Helper css end */
+
+  /* _____________________ */
+
+  /* welcome part start */
+  .wel_part{
+    background: var(--color_1);
+  }
+
+  .welcome_icon li a{
+    color: #fff;
+    transition: 0.4s ;
+  }
+  .welcome_icon li a:hover{
+    color: #353535;
+
+  }
+  /* welcome part end */
+  /* __________________ */
+  /* menu part start */
+  .menu_part .navbar .nav-link{
+      color: black;
+  }
+  .menu_part .navbar .nav-link:hover{
+      color: blue;
+  }
+  /* menu part end */
+   /* __________________ */
+  /* banner part start */
+   .banner_part{
+    background:url("img/banner.png");
+    padding: 100px 0 ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position-y: center;
+    /* background-attachment: fixed; */
+   }
+   .banner_part h1{
+    font-weight: 800;
+   }
+   .banner_part p{
+    font-size: 12px;
+   }
+   .banner_part button{
+    border: 1px solid white;
+    background: transparent;
+    color: #fff;
+    font-weight: 600;
+    padding: 4px 12px;
+    margin-top: 20px;
+   }
+
+  
+  /* banner part end */
+  /* __________________ */
+  /* banner part start */
+
+
+  /* banner part end */
+  /* __________________ */
+  /* banner part start */
+
+
+  /* banner part end */
+  /* __________________ */
