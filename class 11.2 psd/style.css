@@ -23,13 +23,18 @@
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase ; 
   }
+  .fs-12{
+    font-size: 13px;
+  }
+  .hover_img{
+    display: none;
+  }
   :root{
     --color_1: #0872b9 ;
     --color_2: #5bc5f4;
     --oswald: 'Oswald', sans-serif;
   }
   /* common/Helper css end */
-
   /* _____________________ */
 
   /* welcome part start */
@@ -47,6 +52,7 @@
   }
   /* welcome part end */
   /* __________________ */
+
   /* menu part start */
   .menu_part .navbar .nav-link{
       color: black;
@@ -56,6 +62,7 @@
   }
   /* menu part end */
    /* __________________ */
+
   /* banner part start */
    .banner_part{
     background:url("img/banner.png");
@@ -80,16 +87,100 @@
     margin-top: 20px;
    }
 
+   
+  /* banner part end */
+  /* __________________ */
+
+  /* services part start */
+  .service_part .card-body{
+    background: url("img/service_bg.png");
+    background-position-y: bottom;
+    background-size: cover;
+    border: none;
+    position: relative;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.4s;
+
+  }
+  .service_part .card-body:hover{
+    box-shadow: 0px 5px 10px #bdbbbb ;
+  }
+  .service_part .card-body .img-area{
+    border: 1px solid gray;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -35px;
+    margin: 0;
+  }
+  .service_part .card-body .img-area:hover{
+    background-color: var(--color_2) ;
+  }
+  .service_part .card-body .card-title{
+    margin-top: 50px;
+  }
   
-  /* banner part end */
+  /* services part end */
   /* __________________ */
-  /* banner part start */
+  /* portfoliyo part start */
+  .portfoliyo_part .card-body .img-area{
+    display: inline-block;
+  }
 
 
-  /* banner part end */
+  .portfoliyo_part .custom .col-12 {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+
+  /* portfoliyo part end */
   /* __________________ */
-  /* banner part start */
 
+  /* Team part start */
+  .team_part .card-body .img-area{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s; 
+  }
 
-  /* banner part end */
+  .team_part .img-area .hover_img{
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .team_part .card:hover .hover_img{
+    display: block;
+  }
+
+  /* Team part end */
+  /* __________________ */
+
+  /* testimonial section start */
+
+  .testim_part p{
+    font-family: var(--oswald);
+  }
+
+  /* testimonial section end */
+  /* __________________ */
+
+  /* footer sec start */
+  .footer_part{
+    background: #555555;
+    color: #fff;
+    /* font-family: var(--oswald); */
+  }
+  /* footer sec end */
   /* __________________ */
