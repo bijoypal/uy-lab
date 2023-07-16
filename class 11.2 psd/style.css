@@ -55,43 +55,91 @@
 
   /* menu part start */
   .menu_part .navbar .nav-link{
-      color: black;
+      color:#353535;
   }
   .menu_part .navbar .nav-link:hover{
-      color: blue;
+      color: var(--color_1);
   }
   /* menu part end */
    /* __________________ */
 
   /* banner part start */
    .banner_part{
-    background:url("img/banner.png");
-    padding: 100px 0 ;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position-y: center;
-    /* background-attachment: fixed; */
+    background:url("img/banner.png") no-repeat center;
+    padding: 100px 0 120px;
+    background-size: cover;
+    /* background: color image repeat position */
    }
    .banner_part h1{
+    font-size: 48px;
     font-weight: 800;
    }
-   .banner_part p{
-    font-size: 12px;
+   .banner_part h2{
+    font-size: 38px;
+    font-weight: 400;
    }
-   .banner_part button{
-    border: 1px solid white;
-    background: transparent;
-    color: #fff;
-    font-weight: 600;
-    padding: 4px 12px;
-    margin-top: 20px;
+   .banner_part p{
+    line-height: 2;
+    padding: 15px 0;
+   }
+   .banner_part .ban_btn a{
+     background: var(--color_1);
+     border-color: var(--color_1);
+     border-radius: 0;
+     text-transform: uppercase;
+     font-family: var(--oswald);
+   }
+   .banner_part .ban_btn a:hover{
+    background-color: transparent;
+    border-color: #fff;
    }
 
    
   /* banner part end */
   /* __________________ */
 
+  /* about part start */
+   .about_part{
+    padding: 60px 0 0 ;
+   }
+   .about_header {
+    padding: 0 0 40px;
+   }
+   .about_header h4{
+    font-size: 32px;
+    color: #353535;
+    font-weight: 800;
+    /* line-height: 1; */
+   }
+    .d1,
+    .d2,
+    .d3,
+    .d4 {
+    height: 1px;
+    width: 50px;
+    background-color: var(--color_1);
+  }
+  .con_header_divider .d2 {
+    width: 3px;
+  }
+  .con_header_divider .d3 {
+    width: 2px;
+  }
+  .con_header_divider .d4 {
+    width: 1px;
+  }
+
+
+  /* about part end */
+  /* __________________ */
+
   /* services part start */
+  .service_part {
+    padding: 60px 0;
+  }
+
+  
+
   .service_part .card-body{
     background: url("img/service_bg.png");
     background-position-y: bottom;
