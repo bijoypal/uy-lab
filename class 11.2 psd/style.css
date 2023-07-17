@@ -137,7 +137,7 @@
   /* services part start */
   .service_con{
     background-color: #f1f1f1;
-    padding: 45px 25px 25px;
+    padding: 50px 25px 25px;
     position: relative;
     transition: 0.4s;
     
@@ -215,7 +215,7 @@
     .team_img:hover{
       box-shadow: 0 0 22px 5px rgba(0, 0, 0, 0.26);
     }
-    .team_img:hover ~ h4{
+    .team_img:hover h4{
       color: var(--color_2);
     }
     .team_overlay{
@@ -255,16 +255,43 @@
       visibility: visible;
       width: 33.33%;
     }
-
-
+    .team_img h4{
+      padding-top: 10px;
+    }
+    .team_img h5{
+      color: #555;
+    }
 
   /* Team part end */
   /* __________________ */
 
   /* testimonial section start */
+  .testi_con{
+      position: relative;
+  }
+  .testi_con::before{
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    height: 30px;
+    width: 30px;
+    transform: translate(-50%) rotate(45deg) ;
+    background-color: #f1f1f1; 
+    z-index: -1;
+  }
 
-  .testim_part p{
-    font-family: var(--oswald);
+  .testi_con {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin-top: 40px;
+  }
+
+  .testi_con h6{
+    color: #555555;
+  }
+  .testi_con ul li{
+    color: var(--color_2);
   }
 
   /* testimonial section end */
