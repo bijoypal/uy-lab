@@ -9,12 +9,18 @@
     margin: 20px;
     height: 45px;
     width: 240px;
-    background: transparent;
+    background: salmon;
     border: 1px solid darkblue;
     font-size: 20px;
     position: relative;
     overflow: hidden;
     z-index: 1;
+}
+.btn_area button:hover{
+    color: #fff;
+    font-weight: 900;
+
+    background-color: transparent;
 }
 /* ------------ */
 
