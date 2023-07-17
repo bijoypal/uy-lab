@@ -8,6 +8,7 @@
   ul{
     list-style: none;
     margin: 0;
+    padding: 0;
   }
   a{
     text-decoration: none;
@@ -134,83 +135,128 @@
   /* __________________ */
 
   /* services part start */
-  .service_part {
-    padding: 60px 0;
-  }
-
-  
-
-  .service_part .card-body{
-    background: url("img/service_bg.png");
-    background-position-y: bottom;
-    background-size: cover;
-    border: none;
+  .service_con{
+    background-color: #f1f1f1;
+    padding: 45px 25px 25px;
     position: relative;
-    height: 200px;
+    transition: 0.4s;
+    
+  }
+  .service_con:hover{
+    box-shadow: rgb(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  .service_icon{
+    height: 80px;
+    width: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    border-radius: 50%;
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #f1f1f1;
+    border: 5px double white;
     transition: 0.4s;
 
   }
-  .service_part .card-body:hover{
-    box-shadow: 0px 5px 10px #bdbbbb ;
+  .service_con:hover .service_icon{
+    background-color: var(--color_2);
+    
   }
-  .service_part .card-body .img-area{
-    border: 1px solid gray;
-    height: 80px;
-    width: 80px;
-    border-radius: 50%;
+  /* services part end */
+  /* __________________ */
+
+  /* portfoliyo part start */
+
+  .port_img{
+    position: relative;
+  }
+  .port_overlay{
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top: -35px;
-    margin: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
   }
-  .service_part .card-body .img-area:hover{
-    background-color: var(--color_2) ;
+  .port_overlay a{
+    height: 40px;
+    width: 40px;
+    background: var(--color_2);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
   }
-  .service_part .card-body .card-title{
-    margin-top: 50px;
-  }
-  
-  /* services part end */
-  /* __________________ */
-  /* portfoliyo part start */
-  .portfoliyo_part .card-body .img-area{
-    display: inline-block;
+  .port_img:hover .port_overlay{
+    opacity: 1;
+    visibility: visible; 
   }
 
-
-  .portfoliyo_part .custom .col-12 {
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-  
 
   /* portfoliyo part end */
   /* __________________ */
 
   /* Team part start */
-  .team_part .card-body .img-area{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.4s; 
-  }
 
-  .team_part .img-area .hover_img{
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
+    .team_img{
+      position: relative;
+      overflow: hidden;
+      transition: 0.4s;
+    }
+    .team_img:hover{
+      box-shadow: 0 0 22px 5px rgba(0, 0, 0, 0.26);
+    }
+    .team_img:hover ~ h4{
+      color: var(--color_2);
+    }
+    .team_overlay{
+      height: 100%;
+      width: 0%;
+      background: rgba(0, 0, 0, 0.6);
+      position: absolute;
+      top: 0;
+      right: 0; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      visibility: hidden;
+      transition: 0.4s;
+    }
+    .team_overlay ul li a{
+      height: 40px;
+      width: 40px;
+      border: 1px solid #fff;
+      display: block;
+      border-radius: 50%;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 5px 0;
+      transition: 0.4s;
+    }
+    .team_overlay ul li a:hover{
+      background-color: var(--color_2);
+      border-color: var(--color_2);
+    }
 
-  .team_part .card:hover .hover_img{
-    display: block;
-  }
+    .team_img:hover .team_overlay{
+      opacity: 1;
+      visibility: visible;
+      width: 33.33%;
+    }
+
+
 
   /* Team part end */
   /* __________________ */
