@@ -297,11 +297,44 @@
   /* testimonial section end */
   /* __________________ */
 
+  /* contract section start */
+  .contact_part {
+    padding: 20px;
+    background: #353535;
+    margin-top: 40px;
+    text-transform: none;
+  }
+  .contact_part h4{
+    text-transform: none;
+  }
+  .contact_icon{
+    height: 35px;
+    width: 35px;
+    background-color: var(--color_2);
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+  }
+  .contact_con ul li a{
+    color: #f1f1f1;
+    padding: 5px 0;
+    display: block;
+    transition: 0.4s;
+
+  }
+  .contact_con ul li a:hover{
+    color: var(--color_2);
+  }
+  /* contract section end */
+  /* ------------------- */
+
   /* footer sec start */
   .footer_part{
     background: #555555;
-    color: #fff;
-    /* font-family: var(--oswald); */
+  }
+  .footer_part a{
+    color: var(--color_2);
   }
   /* footer sec end */
   /* __________________ */
