@@ -169,7 +169,9 @@
   /* __________________ */
 
   /* portfoliyo part start */
-
+  .port_con{
+    text-align: center;
+  }
   .port_img{
     position: relative;
   }
