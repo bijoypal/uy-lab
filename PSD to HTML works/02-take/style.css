@@ -77,7 +77,11 @@
 
   /* box section start */
   .box_main {
-    font-size: 13px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .box_con, .box_con1, .box_con2, .box_img {
+    height: 240px;
   }
   .box_part .upper .box_con1{
     background: #f5979c;
@@ -85,8 +89,24 @@
   .box_part .upper .box_con2{
     background: #615e7d;
   }
+  .more{
+    font-size: 14px;
+  }
   .box_part .upper .box_img{
     background: url("img/box3.png");
+    
   }
+  .box_part .under .box_img{
+    background: url("img/big_box.png") no-repeat 100%;
+    background-size: cover;
+    background-position-y: 100% ;
+  }
+  .under .box_img p{
+    max-width: 420px;
+  }
+  .box_part .under .box_con{
+    background: var(--color_2);
+  }
+
   /* box section end */
   /* --------------------------- */
