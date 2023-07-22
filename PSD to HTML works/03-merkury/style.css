@@ -1,0 +1,249 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+  *{
+    margin: 0;padding: 0;
+    outline: 0;
+    font-family: 'Roboto', sans-serif;
+
+  }
+  ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  a{
+    text-decoration: none;
+  }
+  p{
+    margin: 0;
+    font-size: 16px;
+    color: #7d8ba8;
+  }
+  h1{
+    font-weight: lighter;
+  }
+  h6{
+    font-size: 15px;
+  }
+
+  :root{
+    --color_1: #5583ff;
+    --color_2: #0d1935;
+    --color_3: #f6f7fa;
+    --color-4: #5584ff;
+    --marriweather:  'Merriweather', serif;
+  }
+
+  /* banner part start */
+  .banner_part{
+    background: url("img/banner.png") no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    padding: 30px 0 220px;
+    margin-bottom: 130px;
+  }
+
+          /* menu part  */
+
+  .nav-link {
+    font-size: 15px;
+    color: #fff;
+    padding-right: 20px!important;
+  }
+  .nav-link:hover {
+    color: var(--color_1);
+  }
+  .login{
+    background-color: transparent;
+    border: 1px solid var(--color_1);
+    border-radius: 50px;
+    color: var(--color_1);
+    padding: 5px 25px;
+  }
+      /* contant part */
+
+
+.ban_con_main p{
+  font-size: 25px;
+}
+.ban_btn a{
+  background: #5584ff;
+  border-radius: 50px;
+  padding: 10px 40px;
+  color: #fff;
+}
+  /* banner image */
+  .ban_image {
+    position: absolute;
+    bottom: -16%;
+    left: 50%;
+    transform: translate(-50%);
+    
+  }
+  /* banner part end */
+  /* --------------------------------------------- */
+
+  /* catagroy part start */
+  .cata_btn a{
+    color: #000;
+    border: 1px solid gray;
+    border-radius: 50px;
+    padding: 10px 45px;
+    font-weight: bold;
+    
+  }
+  /* catagroy part end */
+  /* --------------------------------------------- */
+
+  /* browser part start */
+  .browser_part{
+    background-color: var(--color_3);
+  }
+
+  .brow_con_main{
+    width:50%; 
+  }
+  .brow_con_main p{
+    font-size: 14px;
+    width: 80%;
+  }
+  .tab_img_part{
+    width: 50%;
+  }
+  /* browser part end */
+  /* --------------------------------------------- */
+
+  /* drag and drap part start */
+
+  
+  .sections{
+    flex-direction: column;
+    
+  }
+  .header{
+    width: 100%;
+  }
+  .header i{
+    color: #fff;
+    float: right;
+  }
+
+  .sec_1{
+    background: #fff;
+    width: 100%;
+    padding: 15px;
+  }
+
+  .sec_1 a{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    background: var(--color_1);
+    color: #fff;
+    font-weight: bolder;
+    border-radius: 50%;
+    text-align: center;
+
+  }
+  .details p{
+    font-size: 12px;
+  }
+  .icon i{
+    color: gray;
+  }
+  .sec_2{
+    border: 1px solid #5584ff;
+    padding: 22px;
+    width: 100%;
+    height: 100%;
+  }
+  .sec_2:hover{
+    border: 1px solid #fff;
+    transition: 1s;
+  }
+  .sec_2:hover p{
+    color: #fff;
+    font-size: large;
+  }
+
+  .drg_drp_part{
+    background: url("img/banner.png") no-repeat ;
+    background-size: cover;
+
+  }
+  .drg_main p{
+    font-size: 14px;
+    width: 80%;
+  }
+
+  .drg_main .icons i{
+    color: var(--color_1);
+    transition: 0.4s;
+  }
+
+  .drg_main .icons:hover i{
+    color: #fff;
+  }
+
+  /* drag and drap part end */
+  /* --------------------------------------------- */
+
+
+  /* psd html part start */
+  .psd_html_part{
+    background-color: var(--color_3);
+  }
+  .p_h_header p{
+    width: 60%;
+    margin: auto;
+    font-size: 12px;
+  }
+
+  /* psd html part end */
+  /* --------------------------------------------- */
+
+
+  /* pricing part start */
+  .pricing_main_con .box{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    width: 90%;
+  }
+  /* pricing part end */
+  /* --------------------------------------------- */
+
+  /* join part start */
+  .join_btn::before{
+    content: "------------------------------------------------                 ";
+  }
+  .join_btn::after{
+    content: "             ---------------------------------------------------";
+  }
+  /* join part end */
+  /* --------------------------------------------- */
+
+
+  /* footer start */
+  .footer_part{
+    background: var(--color_2);
+    padding: ;
+  }
+  .footer_con p{
+    font-size: 14px;
+    color: #7d8ba8;
+  }
+  .footer_menu_con{
+    float: right;
+  }
+  .footer_menu_con a {
+    color: #7d8ba8;
+    font-size: 14px;
+    transition: 0.4s;
+  }
+  .footer_menu_con a:hover {
+    color: #fff;
+  }
+  /* footer end */
+  /* --------------------------------------------- */
