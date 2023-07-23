@@ -2,62 +2,77 @@
 
 }
 @media (min-width: 576px) and (max-width: 767.9px){
-    .iphone_img img {
-        width: 35% !important;;
+    .banner_part {
+        padding: 10px 0 30px !important;
+        margin-bottom: 30px !important;
     }
-    .iphone_img {
-        bottom: -28%!important;
-        right: -68%!important;
-    }
-    .banner_part{
-        padding: 0px!important;
+    .ban_image {
+        bottom: -6%!important;
       }
-   .cover_con {
-    padding: 50px 0 !important;
-   }
+    .cata_btn a {
+        padding: 8px 25px !important;
+     
+    }
 
+    .browser_part{
+        flex-direction: column !important;
+        justify-content: center!important;
+    }
+    .brow_con_main{
+        text-align: center ;
+        width: 100% !important;
+    }
+    .tab_img_part{
+        width: 60% !important;
+    }
+    .headlines a {
+        font-size: 12px;
+    }
+    .pricing_main_con .box{
+        width: 60% !important;
+        margin: auto !important;
+      }
+    
+    .ban_btn a {
+        padding: 10px 30px !important;
+        font-size: 12px;
+    }
+    .join_btn hr {
+        width: 28% !important;
+    }
+    
 }
 @media (min-width: 768px) and (max-width: 991.9px) {
-    .iphone_img img {
-        width: 50% !important;;
+    .banner_part {
+        padding: 10px 0 50px !important;
+        margin-bottom: 60px !important;
     }
-    .iphone_img {
-        bottom: -28%!important;
-        right: -30%!important;
+    .cata_btn a {
+        padding: 8px 25px !important;
+     
     }
-    .banner_part{
-        padding: 0px!important;
-      }
-   .cover_con {
-    padding: 100px 0 !important;
-   }
+    .headlines a {
+        font-size: 12px !important;
+    }
+    .ban_btn a {
+        padding: 10px 20px !important;
+    }
+    
 }
 
 @media (min-width: 992px) and (max-width: 1199.9px) {
-    .iphone_img img {
-        width: 60% !important;;
-    }
-    .iphone_img {
-        bottom: -20%!important;
-        right: -15%!important;
 
+    .banner_part {
+        padding: 20px 0 60px !important;
+        margin-bottom: 70px !important;
     }
-    .banner_part{
-        padding: 0px!important;
+    .ban_image {
+        bottom: -8%!important;
       }
+    
    }
 @media (min-width: 1200px) and (max-width: 1399.9px) {
-    .iphone_img img {
-        width: 75% !important;
-    }
-    .iphone_img {
-        right: 0% !important;
-        height: 80% !important;
-        bottom: 0 !important;
-    }
-    .banner_part{
-        padding-bottom: 60px!important;
-      }
+    
 }
 @media (min-width: 1400px) {
 
