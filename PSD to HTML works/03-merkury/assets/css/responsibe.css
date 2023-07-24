@@ -1,4 +1,42 @@
 @media (max-width: 575.9px){
+    .banner_part {
+        padding: 10px 0 30px !important;
+        margin-bottom: 30px !important;
+    }
+    .ban_image {
+        bottom: -6%!important;
+      }
+    .cata_btn a {
+        padding: 8px 25px !important;
+     
+    }
+
+    .browser_part{
+        flex-direction: column !important;
+        justify-content: center!important;
+    }
+    .brow_con_main{
+        text-align: center ;
+        width: 100% !important;
+    }
+    .tab_img_part{
+        width: 60% !important;
+    }
+    .headlines a {
+        font-size: 12px;
+    }
+    .pricing_main_con .box{
+        width: 60% !important;
+        margin: auto !important;
+      }
+    
+    .ban_btn a {
+        padding: 10px 30px !important;
+        font-size: 12px;
+    }
+    .join_btn hr {
+        width: 28% !important;
+    }
 
 }
 @media (min-width: 576px) and (max-width: 767.9px){

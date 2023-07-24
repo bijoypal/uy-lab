@@ -1,0 +1,235 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300&display=swap');
+
+
+  *{
+    margin: 0;padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+  }
+  ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  a{
+    text-decoration: none;
+  }
+  p{
+    margin: 0;
+  }
+  h6{
+    font-size: 15px;
+  }
+  .container{
+    padding: 0 8%;
+  }
+  :root{
+    --color_1: #81c99b;
+    --color_2: #81c99c;
+    --color_3: #192331;
+    --color-4: #bd8bbf;
+    --marriweather:  'Merriweather', serif;
+  }
+
+  /* banner section stat */
+  .banner_part{
+    background: url("img/banner.png") no-repeat;
+    padding: 60px 0 150px;
+    background-size: contain;
+    position: relative;
+  }
+  .logo_part h3{
+    font-family: var(--marriweather);
+    color: #fff;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 21px;
+    display: inline;
+    padding:  5px 0;
+  }
+  .cover_con{
+    padding: 200px 0;
+    color: #fff;
+  }
+ 
+  .iphone_img{
+    position: absolute;
+    right: 2%;
+    bottom: -4%;
+    display: inline-block;
+  }
+
+  .iphone_img img{
+    width: 80%;
+
+  }
+  /* banner section end */
+  /* --------------------------- */
+
+  /* cover_details start */
+    .c_detail_part{
+      color: var(--color_3);
+    }
+
+    .c_detail_part .details_con p{
+    font-size: 14px;
+  }
+  /* cover_details end */
+  /* --------------------------- */
+
+
+  /* box section start */
+  .box_main {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .box_con, .box_con1, .box_con2, .box_img {
+    height: 240px;
+  }
+  .box_part .upper .box_con1{
+    background: #f5979c;
+  }
+  .box_part .upper .box_con2{
+    background: #615e7d;
+  }
+  .more{
+    font-size: 14px;
+  }
+  .box_part .upper .box_img{
+    background: url("img/box3.png");
+    
+  }
+  .box_part .under .box_img{
+    background: url("img/big_box.png") no-repeat 100%;
+    background-size: cover;
+    background-position-y: 100% ;
+  }
+  .under .box_img p{
+    max-width: 420px;
+  }
+  .box_part .under .box_con{
+    background: var(--color_2);
+  }
+
+  /* box section end */
+  /* --------------------------- */
+  /* look details start */
+  .look_con_main h6 {
+    font-weight:600;
+  }
+  .look_con_main p{
+    font-size: 12px;
+    line-height: 25px;
+  }
+  /* look details end */
+  /* --------------------------- */
+
+
+  /* cover part start */
+  .cover_part{
+    background: url("img/about.png") no-repeat 100%;
+    background-size: cover;
+    /* background-position-y: 100% ; */
+  }
+  .cover_main_part{
+    padding: 70px 0;
+    color: #fff;
+  }
+  .cover_details{
+    padding: 130px 0  0;
+    font-size: 13px;
+  }
+  /* cover part end */
+  /* --------------------------- */
+
+
+  /* reasons start */
+  .reasons_part{
+    background-color: var(--color_1);
+  }
+  /* reasons end */
+  /* --------------------------- */
+
+  /* buy part start */
+  .buy_part{
+    background-color: #f6f7fa;
+  }
+  .buy_con .head h6{
+    padding: 10px 15px;
+    background-color: #e1e1e1;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 11px;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+  .buy_con a{
+    text-transform: uppercase;
+    padding: 20px 38px;
+    color: #fff;
+    background-color: var(--color_1);
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bolder;
+  }
+  .buy_con p{
+    line-height: 28px;
+    font-size: 13px;
+  }
+  .buy_part .second{
+    background-color: #ffffff;
+  }
+  .second .head h6{
+    background-color: #bd8bbf;
+  }
+  /* buy part end */
+  /* --------------------------- */
+
+
+  /* contract part start */
+  .contract_part{
+    background-color: var(--color_3);
+  }
+  .con_main h6 {
+    font-weight:600;
+  }
+  .con_main p{
+    font-size: 12px;
+    line-height: 25px;
+    
+  }
+  .contract_links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contract_links div{
+    width: 33%;
+  }
+  .links li{
+    font-size: 12px;
+  }
+  .input-group input{
+    border-radius: 0px;
+    border: none;
+  }
+  
+  .serch_con button{
+    border: none;
+    border-radius: 0!important;
+    background-color: var(--color_2);
+    color: #fff;
+  }
+  .serch_con p{
+    width: 75%;
+  }
+  /* contract part end */
+  /* --------------------------- */
+
