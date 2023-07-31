@@ -1,0 +1,50 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.namta{
+    border: 1px solid teal;
+    padding: 10px;
+    margin: 10px;
+    color: blueviolet;
+    font-size: 18px;
+    float: left;
+
+}
+.active_popup{
+    height: 50px;
+    width: 250px;
+    background: teal;
+    border: 0;
+    border-radius: 5px;
+    font-size: 22px;
+    color: #fff;
+    margin: 20px auto;
+    display: block;
+}
+.popup{
+    display: none;
+    transition: 0.4s;
+}
+.d_block{
+    display: block;
+}
+.popup_con{
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.popup_con i{
+    font-size: 26px;
+}
