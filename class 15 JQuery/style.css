@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ul{
+    list-style: none;
+}
+a, 
+a:hover{
+    text-decoration: none;
+    color: #000;
+}
+.box{
+    height: 250px;
+    width: 250px;
+    background: teal;
+    margin: 10px;
+}
+.d_none{
+    display: none;
+}
+
+.header_part{
+    background: #f1f1f1;
+}
+.alignment{
+    max-width: 85%;
+    margin: 0 auto;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.menu li {
+    position: relative;
+}
+.menu li a{
+    display: block;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+.menu li a:hover {
+    background: #f00;
+    color: #fff;
+}
+.dropmenu {
+    position: absolute;
+    background: #f1f1f1 ;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    display: none;
+ 
+}
+.collapse_btn{
+    padding: 6px 8px;
+    border: 1px solid #555;
+    border-radius: 3px;
+    margin: 10px 0;
+    display: none;
+
+}
+.sidebar_part{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.sidebar_con{
+    height: 100vh;
+    width: 300px;
+    background: #f00;
+    margin-left: -300px;
+    transition: 0.5s;
+}
+.ml{
+    margin-left: 0;
+}
+.sidebar_btn{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: green;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media (max-width: 768px){
+    .collapse_btn{
+        display: block;
+    }
+    .navigation{
+        position: relative;
+    }
+
+    .menu{
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: #f1f1f1;
+    }
+    .dropmenu {
+        position: unset;
+        text-align: left;
+        background: blueviolet ;
+
+    }
+     
+}
