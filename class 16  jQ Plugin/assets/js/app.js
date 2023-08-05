@@ -109,7 +109,7 @@ $(function(){
           });
        
 
-    // swefer slider end
+    // swiper slider end
 
     
 
