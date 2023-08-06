@@ -268,3 +268,28 @@
   }
   /* team part end */
 
+  /* contact part start */
+  .contact_part{
+    background: var(--color-7);
+
+  }
+  .contact_part p, .contact_part h4{
+    color: #b4b4b4;
+  }
+ 
+  .contact_header .d1{
+    background: #b4b4b4;
+    height: 2px;
+   }
+    .post_img img{
+      border-radius: 5px;
+    }
+   .post_details span{
+    color: #fff;
+    background: var(--color_1);
+    padding: 2px 4px;
+    text-transform: uppercase;
+    border-radius: 4px;
+   }
+  /* contact part end */
+
