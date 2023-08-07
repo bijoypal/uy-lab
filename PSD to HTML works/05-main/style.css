@@ -256,12 +256,15 @@
     color: #fff;
     font-size: 18px;
   }
-  .social_icons{
+
+  .social_icons .icons{
     border-radius: 20px;
     background: #fff;
     padding: 5px 10px;
     display: inline-block;
+    text-align: center;
   }
+
   .icons i{
     border-radius: 50%;
     color: #00aced;
@@ -291,5 +294,60 @@
     text-transform: uppercase;
     border-radius: 4px;
    }
+   .pd1 span{
+    background: #ffba00; 
+   }
+   .pd2 span{
+    background: #089dea; 
+   }
+   .pd3 span{
+    background: #f34d04; 
+   }
+   .pd4 span{
+    background: #ffba00 
+   }
+   .form_con p{
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    width: 60%;
+    display: inline-block;
+   }
+  
+   .contact_con_main .form-control{
+    background: #444444;
+    margin: 5px 0;
+    border: none;
+    color: #717171;
+   }
+   .form-control::placeholder, .form-floating label {
+    color: #717171;
+    font-size: 16px;
+   }
+
+    .btn_send{
+      background: var(--color_3);
+      width: 100%;
+      border: none;
+      color: #fff;
+      padding: 10px 0;
+   }
+   .form-floating textarea {
+    padding: 60px 0 !important;
+   }
   /* contact part end */
+  /* footer part start */
+  .footer_part{
+    background: var(--color-8);
+  }
+  .footer_header h4 {
+    color: #111111;
+  }
+  .footer_header .d1{
+    background: #111111;
+  }
+  .footer_butoon{
+    background: #111111;
+  }
+  /* footer part end */
 
