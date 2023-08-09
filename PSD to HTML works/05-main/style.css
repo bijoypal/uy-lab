@@ -55,6 +55,7 @@
     background-size: cover;
     background-position: center;
     padding: 5px 0;
+
   }
   .alignment{
     max-width: 95% !important;
@@ -63,6 +64,8 @@
     font-family: proxinova;
     color: #fff;
   }
+ 
+
   .navbar a.nav-link{
     color: #fff;
   }

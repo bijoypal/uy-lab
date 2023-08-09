@@ -3,9 +3,108 @@
 }
 @media (min-width: 576px) and (max-width: 767.9px){
     
+    .banner_headline h1 {
+        font-size: 28px !important;
+    }
+    .banner_headline {
+        padding: 50px 0px !important;
+    }
+    .con p {
+        font-size: 14px !important;
+    }
+    .cata_icon {
+        
+        padding: 45px 12px !important;
+    }
+    .cata_icon img{
+        width: 50%;
+    }
+    h5 {
+        font-size: 1rem;
+    }
+    p {
+        font-size: 10px !important;
+    }
+    .cata_btn a {
+        padding: 7px 24px !important;
+    
+    }
+    .work_h_butoon {
+        font-size: 14px;
+    }
+    .work_h_butoon div {
+        padding: 6px 12px !important;
+    }
+    .ban_btn a {
+        padding: 10px 19px;
+        font-size: 14px;
+    }
+    .client_pic img{
+        width: 85% !important;
+    }
+    /* .team_pic{
+        width: 90% !important;
+    } */
+    .social_icons .icons {
+        padding: 5px 7px !important;
+        
+    }
+    .icons i {
+        font-size: 18px !important;
+    }
+    
     
 }
 @media (min-width: 768px) and (max-width: 991.9px) {
+    .banner_headline h1 {
+        font-size: 28px !important;
+    }
+    .banner_headline {
+        padding: 50px 0px !important;
+    }
+    .con p {
+        font-size: 14px !important;
+    }
+    .cata_icon {
+        
+        padding: 50px 25px !important;
+    }
+    .cata_icon img{
+        width: 50% !important;
+    }
+    h5 {
+        font-size: 1rem;
+    }
+    p {
+        font-size: 10px !important;
+    }
+    .cata_btn a {
+        padding: 7px 24px !important;
+    
+    }
+    .work_h_butoon {
+        font-size: 14px !important;
+    }
+    .work_h_butoon div {
+        padding: 6px 12px !important;
+    }
+    .ban_btn a {
+        padding: 10px 19px !important;
+        font-size: 14px !important;
+    }
+    .client_pic img{
+        width: 85% !important;
+    }
+    .team_pic img{
+        width: 90% !important;
+    }
+    .social_icons .icons {
+        padding: 5px 7px !important;
+        
+    }
+    .icons i {
+        font-size: 18px !important;
+    }
     
 }
 
