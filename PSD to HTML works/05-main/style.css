@@ -287,9 +287,9 @@
     background: #b4b4b4;
     height: 2px;
    }
-    .post_img img{
+  .post_img img{
       border-radius: 5px;
-    }
+  }
    .post_details span{
     color: #fff;
     background: var(--color_1);

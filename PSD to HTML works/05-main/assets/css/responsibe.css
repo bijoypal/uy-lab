@@ -52,7 +52,32 @@
     .icons i {
         font-size: 18px !important;
     }
-    
+    h4{
+        font-size: 1rem !important;
+    }
+    .post_details span{
+        font-size: 12px !important;
+    }
+    .post_img img{
+       height: 35px !important;
+       width: 35px !important;
+    }
+    .form-control {
+        padding: 0px 10px;
+    }
+    .form-control::placeholder, .form-floating label {
+        font-size: 10px !important;
+       }
+    .form-floating textarea {
+        padding: 30px 0 !important;
+    }
+    .btn_send {
+        padding: 2px 0 !important;
+    }
+    .footer_pic img{
+        width: 95% !important;
+    }
+
     
 }
 @media (min-width: 768px) and (max-width: 991.9px) {
@@ -105,7 +130,32 @@
     .icons i {
         font-size: 18px !important;
     }
-    
+    h4{
+        font-size: 1rem !important;
+    }
+    .post_details span{
+        font-size: 12px !important;
+    }
+    .post_img img{
+       height: 35px !important;
+       width: 35px !important;
+    }
+    .form-control {
+        padding: 0px 10px;
+    }
+    .form-control::placeholder, .form-floating label {
+        font-size: 10px !important;
+       }
+    .form-floating textarea {
+        padding: 30px 0 !important;
+    }
+    .btn_send {
+        padding: 2px 0 !important;
+    }
+    .footer_pic img{
+        width: 95% !important;
+    }
+
 }
 
 @media (min-width: 992px) and (max-width: 1199.9px) {
