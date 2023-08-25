@@ -1,12 +1,242 @@
 @media (max-width: 575.9px){
+    .ban_con_main {
+        padding: 60px 0  0px !important;
+    }
+    .ban_con_main h1 {
+        font-size: 35px !important;
+    }
+    .ban_con_main p {
+        font-size: 14px !important;
+    }
+    h4 {
+        font-size: 32px !important;
 
+    }
+    h5 {
+        font-size: 12px !important;
+    }
+    p {
+        font-size: 12px !important;
+    }
+    .expert_con_main{
+        width: 100% !important;
+    }
+    .expert_header, .port_header{
+        text-align: center !important;
+    }
+    .sections {
+        justify-content: center !important;
+    }
+    .see_btn {
+        display: flex;
+        justify-content: center;
+    }
+    .expert_img_part{
+        display: none !important;
+    }
+    .port_con_main {
+        width: 100% !important;
+    }
+    .details P {
+        width: 100% !important;
+    }
+    .port_img_part {
+        display: none !important;
+    }
+    .about_img img{
+        width: 60% !important;
+    }
+    .about_details{
+        text-align: end !important;
+    }
+    .img_cover{
+        width: 150px !important;
+        height: 150px !important;
+    }
+    .team_image {
+        height: 100px !important;
+        width: 100px !important;
+    }
+    .foot_header{
+        text-align: center;
+    }
+    .social_con{
+        display: inline-block;
+        justify-content: center;
+    }
+    h6 {
+        font-size: 12px !important;
+    }
+    .team_details h6 {
+        line-height: 12px !important;
+    }
+    .social_icons i {
+        font-size: 25px !important;
+        padding: 0 2px !important;
+    }
+    .form-control {
+        margin: 10px 0 !important;
+        height: 40px !important;
+    }
+    .btn_send {
+        padding: 10px !important;
+        font-size: 12px !important;
+        display: inline !important; 
+    }
+    
 }
 @media (min-width: 576px) and (max-width: 767.9px){
-    
+    .ban_con_main {
+        padding: 60px 0  0px !important;
+    }
+    .ban_con_main h1 {
+        font-size: 35px !important;
+    }
+    .ban_con_main p {
+        font-size: 14px !important;
+    }
+    h4 {
+        font-size: 32px !important;
+
+    }
+    h5 {
+        font-size: 12px !important;
+    }
+    p {
+        font-size: 12px !important;
+    }
+    .expert_con_main{
+        width: 100% !important;
+    }
+    .expert_header, .port_header{
+        text-align: center !important;
+    }
+    .sections {
+        justify-content: center !important;
+    }
+    .see_btn {
+        display: flex;
+        justify-content: center;
+    }
+    .expert_img_part{
+        display: none !important;
+    }
+    .port_con_main {
+        width: 100% !important;
+    }
+    .details P {
+        width: 100% !important;
+    }
+    .port_img_part {
+        display: none !important;
+    }
+    .about_img img{
+        width: 60% !important;
+    }
+    .about_details{
+        text-align: end !important;
+    }
+    .img_cover{
+        width: 150px !important;
+        height: 150px !important;
+    }
+    .team_image {
+        height: 100px !important;
+        width: 100px !important;
+    }
+    .foot_header{
+        text-align: center;
+    }
+    .social_con{
+        display: inline-block;
+        justify-content: center;
+    }
+    h6 {
+        font-size: 12px !important;
+    }
+    .team_details h6 {
+        line-height: 12px !important;
+    }
+    .social_icons i {
+        font-size: 25px !important;
+        padding: 0 2px !important;
+    }
+    .form-control {
+        margin: 10px 0 !important;
+        height: 40px !important;
+    }
+    .btn_send {
+        padding: 10px !important;
+        font-size: 12px !important;
+        display: inline !important; 
+    }
+
     
 }
 @media (min-width: 768px) and (max-width: 991.9px) {
-    
+    .ban_con_main {
+        padding: 60px 0  0px !important;
+    }
+    .ban_con_main h1 {
+        font-size: 35px !important;
+    }
+    .ban_con_main p {
+        font-size: 14px !important;
+    }
+
+    h4 {
+        font-size: 32px !important;
+
+    }
+    h5 {
+        font-size: 15px !important;
+    }
+    p {
+        font-size: 12px !important;
+    }
+    .expert_con_main{
+        width: 100% !important;
+    }
+    .expert_header{
+        text-align: center;
+    }
+    .expert_img_part{
+        display: none !important;
+    }
+    .port_con_main {
+        width: 75% !important;
+    }
+    .port_img_part {
+        width: 25% !important;
+    }
+
+    .about_img img{
+        width: 100% !important;
+    }
+
+
+    .team_image, .img_cover {
+        height: 100px !important;
+        width: 100px !important;
+    }
+    h6 {
+        font-size: 12px !important;
+    }
+    .team_details h6 {
+    line-height: 12px !important;
+    }
+    .social_icons i {
+        font-size: 25px !important;
+        padding: 0 2px !important;
+    }
+    .form-control {
+        margin: 10px 0 !important;
+        height: 40px !important;
+    }
+    .btn_send {
+        padding: 10px !important;
+        font-size: 12px !important;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.9px) {
