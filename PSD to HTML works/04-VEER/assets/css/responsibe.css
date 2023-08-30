@@ -1,12 +1,224 @@
 @media (max-width: 575.9px){
+   
+    p {
+        font-size: 15px !important;
+    }
+    h4 {
+        font-size: 25px !important;
+        line-height: 25px !important;
+    }
+    h5 {
+        font-size: 15px !important;
+    }
+
+
+    .ban_con_main {
+        padding: 50px 0 !important;
+    }
+    .ban_con_main h1 {
+        font-size: 31px !important;
+        line-height: 37px !important;
+        letter-spacing: 10px !important;
+    }
+    .see_btn a {
+        padding: 8px 16px !important;
+        font-size: 10px !important;
+    }
+    .intro_con {
+        text-align: center;
+    }
+    .intro_con h4 {
+        font-size: 22px !important;
+    }
+    .intro_img img{
+        width: 80% !important;
+    }
+    .intro_con p {
+        width: 80% !important;
+        margin: auto ;
+    }
+    .service_con{
+        flex-direction: column !important;
+    }
+    .service_icon {
+        height: 60px !important;
+        width: 60px !important;
+        margin: auto;
+
+    }
+    .ser_details{
+        margin-top: 15px !important;
+        margin: auto;
+    }
+    .ser_details h5 {
+        margin: auto ;
+        text-align: center;
+    }
+
+    .ser_details p {
+        margin: auto ;
+        text-align: center;
+    }
+    .client_icon img {
+        width: 30px !important;
+        height: 32px !important;
+    }
+
+    .blog_img img{
+        width: 60% !important;
+    }
+    .blog_details{
+        text-align: center !important;
+    }
+    .blog_details a {
+        font-size: 13px !important;
+    }
+    .foot_con, .foot_details {
+        justify-content: center !important;
+    }
+    .foot_head, .foot_detail_con{
+        text-align: center;
+    }
+    .d1 {
+        height: 80px !important;
+      }
+    .foot_details P, .copy_right p{
+        font-size: 10px !important;
+    }
 
 }
 @media (min-width: 576px) and (max-width: 767.9px){
-    
+    p {
+        font-size: 15px !important;
+    }
+    h4 {
+        font-size: 25px !important;
+        line-height: 25px !important;
+    }
+    h5 {
+        font-size: 15px !important;
+    }
+
+
+    .ban_con_main {
+        padding: 50px 0 !important;
+    }
+    .ban_con_main h1 {
+        font-size: 32px !important;
+        line-height: 40px !important;
+    }
+    .see_btn a {
+        padding: 9px 23px !important;
+        font-size: 13px !important;
+    }
+    .intro_con {
+        text-align: center;
+    }
+    .intro_con h4 {
+        font-size: 22px !important;
+    }
+    .intro_img img{
+        width: 80% !important;
+    }
+    .intro_con p {
+        width: 80% !important;
+        margin: auto ;
+    }
+    .service_con{
+        flex-direction: column !important;
+    }
+    .service_icon {
+        height: 60px !important;
+        width: 60px !important;
+        margin: auto;
+
+    }
+    .ser_details{
+        margin-top: 15px !important;
+        margin: auto;
+    }
+    .ser_details h5 {
+        margin: auto ;
+        text-align: center;
+    }
+
+    .ser_details p {
+        margin: auto ;
+        text-align: center;
+    }
+    .client_icon img {
+        width: 30px !important;
+        height: 32px !important;
+    }
+
+    .blog_img img{
+        width: 60% !important;
+    }
+    .blog_details{
+        text-align: center !important;
+    }
+    .blog_details a {
+        font-size: 13px !important;
+    }
+    .d1 {
+        height: 80px !important;
+      }
+    .foot_details P, .copy_right p{
+        font-size: 10px !important;
+    }
     
 }
 @media (min-width: 768px) and (max-width: 991.9px) {
+    p {
+        font-size: 15px !important;
+    }
+    h4 {
+        font-size: 30px !important;
+        line-height: 30px !important;
+    }
+    h5 {
+        font-size: 15px !important;
+    }
+
+
+    .ban_con_main {
+        padding: 50px 0 !important;
+    }
+    .ban_con_main h1 {
+        font-size: 32px !important;
+        line-height: 68px !important;
+    }
+    .see_btn a {
+        padding: 9px 23px !important;
+        font-size: 13px !important;
+    }
+    .intro_con h4 {
+        font-size: 22px !important;
+    }
+    .service_con{
+        flex-direction: column !important;
+    }
+    .service_icon {
+        height: 60px !important;
+        width: 60px !important;
+        margin: auto;
+
+    }
+    .ser_details{
+        margin-top: 15px !important;
+        margin: auto;
+    }
+    .blog_details a {
+        font-size: 13px !important;
+    }
+    .d1 {
+        height: 80px !important;
+      }
+    .foot_details P, .copy_right p{
+        font-size: 10px !important;
+    }
     
+
 }
 
 @media (min-width: 992px) and (max-width: 1199.9px) {

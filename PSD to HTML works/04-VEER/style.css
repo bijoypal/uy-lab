@@ -76,7 +76,7 @@
     opacity: 0.7;
   }
   .ban_con_main{
-    padding: 150px;
+    padding: 150px 0;
   }
 
   .ban_con_main h1{
@@ -164,6 +164,45 @@
   }
 
   /* blog end */
+  /* -------------------------------------- */
+
+  /* offer start */
+  .offer_part{
+    background: var(--color-4);
+  }
+  .off_con p{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: var(--Poppins);
+  }
+  .off_con .see_btn a{
+    background: #4be694;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  /* offer end */
+  /* -------------------------------------- */
+
+  /* footer start */
+  .footer_part{
+    background: #000415;
+  }
+  .foot_head{
+    justify-content: flex-end;
+  }
+  .d1 {
+    height: 150px;
+    width: 2px;
+    background-color: #393939;
+  }
+  .d2 {
+    height: 2px;
+    width: 100px;
+    background-color: #393939;
+  }
+
+  /* footer end */
   /* -------------------------------------- */
 
   
