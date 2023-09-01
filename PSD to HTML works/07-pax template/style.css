@@ -1,0 +1,84 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+  *{
+    margin: 0;padding: 0;
+    outline: 0;
+    font-family: 'Roboto', sans-serif;
+
+  }
+  ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  a{
+    text-decoration: none;
+  }
+  p{
+    margin: 0;
+    font-size: 16px;
+    color: #7d8ba8;
+  }
+  h1{
+    font-weight: lighter;
+  }
+  h6{
+    font-size: 15px;
+  }
+
+  :root{
+    --color_1: #0149a1;
+    --color_2: #7c8ca0;
+    --color_3: #edeff1;
+    --color-4: #ff2d55;
+  }
+  .see_btn a{
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 10px 30px !important;
+  }
+
+  /* ------------------------------------ */
+
+  /* menu start */
+  .menu_part{
+    border-bottom: 1px solid #e4e6ea;
+  }
+ 
+  a.nav-link{
+    color: #677289;
+    margin: auto;
+    font-size: 16px;
+    text-transform: capitalize;
+    margin: auto 10px;
+    line-height: 16px;
+    
+  }
+  li.see_btn a{
+    border-color: #cfd5dd ;
+
+  }
+  .navbar-nav .icon a{
+    border: 1px solid;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .icon a.i1{
+    color: #3c5a99;
+    border-color: #3c5a99 ;
+  }
+  .icon a.i2{
+    color: #28aae1;
+    border-color: #28aae1 ;
+  }
+  /* menu end */
+  /* --------------------------------------- */
+
+
+  
