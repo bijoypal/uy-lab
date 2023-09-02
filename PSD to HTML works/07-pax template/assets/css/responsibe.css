@@ -1,17 +1,130 @@
 @media (max-width: 575.9px){
+    .see_btn a {
+        padding: 9px 25px !important;
+    }
+     h5 {
+        font-size: 14px !important;
+    }
+    p {
+        font-size: 11px !important;
+    }
+    .logo img{
+        width: 65% !important;
+    }
+    .ban_con_main h1 {
+        font-weight: 600;
+        font-size: 28px !important;
+        line-height: 28px !important;
+    }
+    .ban_con_main h5 {
+        font-size: 15px !important;
+        line-height: 15px !important;
+    }
+    .ban_image img{
+        width: 100% !important;
+    }
+    .cre_con .see_btn a {
+        box-shadow: 0 0 20px 15px rgba(255, 254, 254, 1) !important;
+    }
+    .service_icon img {
+        height: 60px !important;
+    }
+    .work_img img {
+        width: 70%;
+    }
+    .cre_con {
+        padding-top: 80px !important;
+    }
+    .map_part {
+        padding: 85px 0 !important;
+    }
+    .foot_con ul li {
+        font-size: 10px !important;
+        text-align: center !important;
+    }
 
 }
 @media (min-width: 576px) and (max-width: 767.9px){
     
+    .see_btn a {
+        padding: 9px 25px !important;
+    }
+     h5 {
+        font-size: 14px !important;
+    }
+    p {
+        font-size: 11px !important;
+    }
+
+    .ban_con_main h1 {
+        font-weight: 600;
+        font-size: 35px !important;
+        line-height: 35px !important;
+    }
+    .ban_con_main h5 {
+        font-size: 15px !important;
+        line-height: 15px !important;
+    }
+    
+    .cre_con .see_btn a {
+        box-shadow: 0 0 20px 15px rgba(255, 254, 254, 1) !important;
+    }
+    .service_icon img {
+        height: 60px !important;
+    }
+    .work_img img {
+        width: 70%;
+    }
+    .cre_con {
+        padding-top: 80px !important;
+    }
+    .map_part {
+        padding: 85px 0 !important;
+    }
+    .foot_con ul li {
+        font-size: 10px !important;
+    }
+    
     
 }
 @media (min-width: 768px) and (max-width: 991.9px) {
-    
+
+    .see_btn a {
+        padding: 9px 30px !important;
+    }
+     h5 {
+        font-size: 16px !important;
+    }
+    p {
+        font-size: 13px !important;
+    }
+
+    .ban_con_main h1 {
+        font-weight: 600;
+        font-size: 40px !important;
+        line-height: 40px !important;
+    }
+    .ban_con_main h5 {
+        font-size: 18px !important;
+        line-height: 18px !important;
+    }
+    .service_icon img {
+        height: 60px !important;
+    }
+    .cre_con {
+        padding-top: 80px !important;
+    }
+    .map_part {
+        padding: 85px 0 !important;
+    }
+    .foot_con ul li {
+        font-size: 10px !important;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.9px) {
 
-   
+
 }
 @media (min-width: 1200px) and (max-width: 1399.9px) {
     

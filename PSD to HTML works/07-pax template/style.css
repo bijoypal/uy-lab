@@ -38,8 +38,9 @@
   .see_btn a{
     border: 1px solid;
     border-radius: 50px;
-    padding: 10px 40px !important;
+    padding: 10px 40px;
   }
+ 
 
   /* ------------------------------------ */
 
