@@ -22,8 +22,8 @@
     font-size: 16px;
     color: #7d8ba8;
   }
-  h1{
-    font-weight: lighter;
+  h5{
+    color: #5d6981;;
   }
   h6{
     font-size: 15px;
@@ -38,7 +38,7 @@
   .see_btn a{
     border: 1px solid;
     border-radius: 50px;
-    padding: 10px 30px !important;
+    padding: 10px 40px !important;
   }
 
   /* ------------------------------------ */
@@ -53,14 +53,16 @@
     margin: auto;
     font-size: 16px;
     text-transform: capitalize;
-    margin: auto 10px;
+    padding: 10px 20px !important;
     line-height: 16px;
     
   }
-  li.see_btn a{
+  a.nav-link:hover{
+    border: 1px solid;
+    border-radius: 50px;
     border-color: #cfd5dd ;
-
   }
+  
   .navbar-nav .icon a{
     border: 1px solid;
     border-radius: 50%;
@@ -79,6 +81,142 @@
   }
   /* menu end */
   /* --------------------------------------- */
+
+  /* banner start */
+  .banner_part{
+    background: url("assets/img/banner.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .ban_con_main h1{
+    color: var(--color_1);
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .ban_con_main h5{
+    color: var(--color_2);
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .ban_con_main .see_btn a{
+    color: #fff;
+    background: #ff2d55;
+    border: none;
+  }
+  /* banner end */
+  /* --------------------------------------- */
+
+  /* service start */
+  .service_icon img{
+    height: 80px;
+  }
+  
+  /* service end */
+  /* --------------------------------------- */
+
+  /* creative start */
+  .creative_part{
+    background: url("assets/img/creative.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .cre_con_main .see_btn a{
+    color: #fff;
+    background: var(--color_1);
+    border: none;
+  }
+  .cre_con{
+    padding-top: 100px;
+  }
+  .cre_con .see_btn a {
+    box-shadow: 0 0 40px 40px rgba(255, 254, 254, 1);
+  }
+  /* creative end */
+  /* --------------------------------------- */
+
+  /* work process start */
+  .work_part {
+    background: var(--color_1);
+  }
+ 
+  .work_details p{
+    color: #fff;
+    text-align: start;
+  }
+  .work_btn .see_btn a{
+    color: var(--color_1);
+    background: #fff;
+    border: none;
+  }
+  /* work process end */
+  /* --------------------------------------- */
+
+
+  /* profile start */
+  .headline{
+    font-style: italic;
+    font-size: 21px;
+    font-weight: lighter;
+  }
+  .pro_details a{
+    color: #7d8ba8;
+    border-bottom: 1px solid #7d8ba8;
+  }
+  /* profile end */
+  /* --------------------------------------- */
+
+
+  /* team part start */
+  .team_part{
+    background: #edeff1;
+  }
+  .team_con h1{
+    color: var(--color_1);
+  }
+  .team_btn .see_btn a{
+    color: #fff;
+    background: #ff2d55;
+    border: none;
+  }
+  /* team part end */
+  /* --------------------------------------- */
+
+  /* map start */
+  .map_part{
+    background: url("assets/img/map.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+  }
+  /* map end */
+  /* --------------------------------------- */
+
+
+  /* footer start */
+  .footer_part{
+    background: var(--color_1);
+  }
+  .foot_con ul li{
+    font-weight: lighter;
+    font-size: 14px;
+    color: #fff;
+    text-align: start;
+  }
+  .cR_con p{
+    font-weight: lighter;
+    color: #fff;
+    font-size: 14px;
+  }
+  .cR_con a{
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+  }
+  /* footer end */
+  /* --------------------------------------- */
+
+
 
 
   
