@@ -1,0 +1,60 @@
+@media (max-width: 575.9px){
+
+}
+@media (min-width: 576px) and (max-width: 767.9px){
+    
+    
+}
+@media (min-width: 768px) and (max-width: 991.9px) {
+
+    p {
+        font-size: 12px !important;
+    }
+    h3 {
+        font-size: 25px !important;
+        line-height: 25px !important;
+    }
+    h4 {
+        font-size: 20px !important;
+        line-height: 20px !important;
+    }
+    h5 {
+        font-size: 16px !important;
+        line-height: 16px !important;
+        margin: 0;
+    }
+    .ban_con_main h1 {
+        font-size: 45px !important;
+    }
+    .ser_details {
+        padding: 25px 0 !important;
+    }
+    .faq_left  .faq_con {
+        margin: 6px !important;
+    }
+   
+    .faq_con {
+        border-radius: 30px !important;
+        padding: 10px !important;
+    }
+    .payment_menu .menus ul li {
+        font-size: 12px !important;
+    }
+    .user_panel {
+        flex-direction: column;
+    }
+    .testi_con {
+        height: 350px !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.9px) {
+
+   
+}
+@media (min-width: 1200px) and (max-width: 1399.9px) {
+    
+}
+@media (min-width: 1400px) {
+
+}
