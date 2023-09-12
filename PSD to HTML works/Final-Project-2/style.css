@@ -1,0 +1,90 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Raleway:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;1,300&display=swap');
+
+  *{
+    margin: 0;padding: 0;
+    outline: 0;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+  ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+  }
+  p{
+    margin: 0;
+    font-size: 16px;
+    color: #8c8c8c;
+  }
+  h1{
+    font-weight: 600;
+  }
+  h3{
+    font-size: 32px;
+    line-height: 32px;
+    text-transform: capitalize;
+    
+  }
+  h4{
+    font-size: 24px;
+    line-height: 24px;
+    margin: 0;
+  }
+  h5{
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  :root{
+    --color_1: #251e1b;
+    --color_2: #998675;
+    --color_3: #c7b299;
+    --color-4: #555555;
+    --color-5: #241d1a;
+    --Raleway:  'Raleway', sans-serif;
+  }
+
+  /* banner part */
+    
+  .banner_part{
+    background: url("assets/img/banner.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .opacity_bal{
+    background: #000;
+    opacity: 0.6;
+  }
+  /* menu part */
+  a.nav-link{
+    color: #fff;
+    text-transform: capitalize;
+    padding-bottom: 0px;
+  }
+  a.nav-link:hover{
+    color: var(--color_2);
+  }
+  .d{
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background: #fff;
+    display: none;
+  }
+  li.nav-item:hover .d{
+    display: block;
+  } 
+  
+    /*-----------------------------------  */
+
+    /* service start */
+  
+    .service_icon img{
+      height: 80px;
+    }
+    /* ----------------------------------------- */
