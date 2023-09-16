@@ -94,7 +94,7 @@
     padding: 120px 0;
   }
   .ban_con_main p{
-    width: 100%;
+    width: 50%;
   }
   .ban_con_main .ban_btn a{
     background: var(--color_2);

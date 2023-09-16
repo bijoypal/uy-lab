@@ -84,6 +84,8 @@ $(function(){
     // countdown end
 
     // slider-> slick Slider, Owl Carousel, Swiper JS,
+
+    
     // swiper slider start
         // default:
         // var swiper = new Swiper(".mySwiper", {});
