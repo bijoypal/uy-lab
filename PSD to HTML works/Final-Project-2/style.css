@@ -104,7 +104,7 @@
     /*-----------------------------------  */
 
     /* service start */
-  
+    
     .service_icon img{
       height: 40px;
     }
@@ -284,9 +284,10 @@
      /* client part */
   .client_part {
     background-image: linear-gradient(to right, #291f1c , #452f24);
-
   }
-
+  .client_con{
+    height: 100px;
+  }
   .client_con img {
     width: 28px;
   }
@@ -389,4 +390,61 @@
     .brand_img img{
       width: 70%;
     }
+  /* ------------------------------------------- */
+
+  /* contact part */
+  .contact_part{
+    background: #191919;
+  }
+  .cont_con p{
+    color: #555555;
+  }
+  .cont_con a{
+    color: #fff;
+    font-size: 12px;
+  }
+  .cont_headline h5{
+    color: #fff;
+    text-transform: capitalize;
+  }
+  .cont_con span{
+    font-family: var(--Raleway);
+    color: #363636;
+    font-size: 12px;
+  }
+  .cont_con .para{
+    padding: 16px 0;
+  }
+  .p2 {
+    border-top: 1px solid #202020;
+    border-bottom: 1px solid #202020;
+  }
+  .cont_con:hover .para span{
+    color: #fff;
+  }
+  .cont_con:hover .para p{
+    color: #73675a;
+  }
+
+  .para a{
+    color: #00bff3 !important;
+  }
+  .pics img{
+    width: 100%;
+  }
+  
+  /* ------------------------------------------- */
+
+  /* footer part */
+  footer{
+    background: #111;
+  }
+  .foot_con p{
+    display: inline;
+    color: #555555;
+    padding: 0 5px;
+  }
+  .foot_con span{
+    color: #fff;
+  }
   /* ------------------------------------------- */
