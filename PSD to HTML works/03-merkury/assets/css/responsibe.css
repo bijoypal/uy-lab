@@ -1,7 +1,19 @@
 @media (max-width: 575.9px){
+    h1 {
+        font-size: 25px !important;
+    }
+    p {
+        font-size: 12px !important;
+    }
     .banner_part {
         padding: 10px 0 30px !important;
         margin-bottom: 30px !important;
+    }
+    .ban_con_main p {
+        font-size: 18px !important;
+    }
+    .logo img{
+        width: 50%;
     }
     .ban_image {
         bottom: -6%!important;
@@ -9,6 +21,10 @@
     .cata_btn a {
         padding: 8px 25px !important;
      
+    }
+    .brow_con_main p {
+        width: 90% !important;
+        margin: auto !important;
     }
 
     .browser_part{
@@ -22,11 +38,18 @@
     .tab_img_part{
         width: 60% !important;
     }
+    .drg_main p {
+        width: 90% !important;
+        margin: auto !important;
+    }
     .headlines a {
         font-size: 12px;
     }
+    .p_h_header p {
+        width: 90% !important;
+    }
     .pricing_main_con .box{
-        width: 60% !important;
+        width: 80% !important;
         margin: auto !important;
       }
     

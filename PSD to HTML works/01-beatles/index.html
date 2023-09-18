@@ -7,11 +7,21 @@
 
     <link rel="stylesheet" href="assets/css/all.min.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/venobox.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
-   
+     <!--back to Top button start  -->
+    <div class="back_to_top">
+      <button class="btn btn-primary">
+        <i class="fa-solid fa-chevron-up"></i>
+      </button>
+    </div>
+
+     <!--back to Top button end  -->
+
     <!-- Welcome part start -->
      <header class="wel_part py-2">
         <div class="container">
@@ -34,13 +44,16 @@
     <!-- _______________________________________ -->
     
     <!-- menu section start -->
-     <section class="menu_part py-3">          <!-- 1=4px 2=8px 3=16px 4=32px -->
+     <section class="menu_part py-3 ">          <!-- 1=4px 2=8px 3=16px 4=32px -->
         <div class="container">
             <div class="menu_part_main">
-              <nav class="navbar navbar-expand-lg bg-body m-0 p-0">
+              <nav class="navbar navbar-expand-lg m-0 p-0">
                 <div class="container-fluid">
-                  <a class="navbar-brand m-0 p-0" href="#">
+                  <a class="b_logo navbar-brand m-0 p-0" href="#">
                     <img src="img/logo.png" alt="">
+                  </a>
+                  <a class="w_logo navbar-brand m-0 p-0 " href="">
+                    <img src="img/logo_white.png" alt="">
                   </a>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -216,7 +229,8 @@
                 <div class="port_img">
                   <img alt="" class="img-fluid w-100" src="img/porfoliyo_1.png">
                   <div class="port_overlay">
-                    <a href=""><i class="fa-solid fa-link"></i></a>
+                    <a class="my-image-links" data-gall="gallery01" href="img/porfoliyo_1.png"><i class="fa-solid fa-link"></i></a>
+
                   </div>
                 </div>
               </div>
@@ -224,7 +238,7 @@
                 <div class="port_img">
                   <img alt="" class="img-fluid w-100" src="img/porfoliyo_2.png">
                   <div class="port_overlay">
-                    <a href=""><i class="fa-solid fa-link"></i></a>
+                    <a class="my-video-links" data-autoplay="true" data-vbtype="video" data-ratio="1x1" data-maxwidth="400px" href="https://youtu.be/2RMa4JRHZ0k"><i class="fa-solid fa-link"></i></a>
                   </div>
                 </div>
               </div>
@@ -288,6 +302,48 @@
     </section>
     <!-- portfoliyo section end -->
     <!-- _______________________________________ -->
+    
+    
+    <!-- countup section start -->
+    <section class="success_part py-5 bg-light mt-5">
+      <div class="container">
+        <div class="success_head text-center">
+          <h2>Our Success</h2>
+        </div>
+        <div class="row mt-4">
+          <div class="col-3">
+            <div class="success_con bg-white py-4 text-center">
+              <h2 class="counter">100000</h2>
+              <h4>Success</h4>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="success_con bg-white py-4 text-center">
+              <h2 class="counter">100000</h2>
+              <h4>Success</h4>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="success_con bg-white py-4 text-center">
+              <h2 class="counter">100000</h2>
+              <h4>Success</h4>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="success_con bg-white py-4 text-center">
+              <h2 class="counter">100000</h2>
+              <h4>Success</h4>
+            </div>
+          </div>
+            
+         
+        </div>
+      </div>
+    </section>
+    <!-- countup section end -->
+    <!-- _______________________________________ -->
+
+
 
     <!-- Team section start -->
     <section class="team_part py-4">
@@ -381,6 +437,44 @@
     <!-- Team section end -->
     <!-- _______________________________________ -->
 
+    <!-- Event Part Start -->
+    <section class="success_part py-5 bg-light mt-5">
+      <div class="container">
+        <div class="success_head text-center">
+          <h2>Our Next Event</h2>
+        </div>
+        <div class="row mt-4">
+          <div class="col-3">
+            <div class="success_con bg-white py-4 text-center countdown__days">
+              <h2 class="number">100000</h2>
+              <h4>Days</h4>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="success_con bg-white py-4 text-center countdown__hours">
+              <h2 class="number">100000</h2>
+              <h4>Hours</h4>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="success_con bg-white py-4 text-center countdown__minutes">
+              <h2 class="number">100000</h2>
+              <h4>Minutes</h4>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="success_con bg-white py-4 text-center countdown__seconds">
+              <h2 class="number">100000</h2>
+              <h4>Secound</h4>
+            </div>
+          </div>
+       
+        </div>
+      </div>
+    </section>
+    <!-- Event Part End -->
+    <!-- _______________________________________ -->
+
     <!--  Testimonial sec start -->
     <section class="testi_part py-4">
       <div class="container">
@@ -395,9 +489,9 @@
             </div>
           </div>
         </div>
-        <div class="testi_con_main">
-          <div class="row gy-4">
-            <div class="col-sm-6">
+        <div class="testi_con_main swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide ">
               <div class="testi_img text-center">
                 <img alt="" class="img-fluid" src="img/testimonal_1.png">
               </div>
@@ -414,7 +508,7 @@
                 <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</h6>
               </div>
             </div>
-            <div class="col-sm-6">
+            <div class="swiper-slide">
               <div class="testi_img text-center">
                 <img alt="" class="img-fluid" src="img/testimonal_2.png">
               </div>
@@ -431,8 +525,80 @@
                 <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</h6>
               </div>
             </div>
-
+            <div class="swiper-slide">
+              <div class="testi_img text-center">
+                <img alt="" class="img-fluid" src="img/testimonal_2.png">
+              </div>
+              <div class="testi_con text-center ">
+                <h5 class="fw-bold">Mahadi tahsan</h5>
+                <ul class="d-flex justify-content-center gap-2 pb-3">
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star-half"></i></li>
+                </ul>
+                <h6>Exicutive Director</h6>
+                <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</h6>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testi_img text-center">
+                <img alt="" class="img-fluid" src="img/testimonal_2.png">
+              </div>
+              <div class="testi_con text-center ">
+                <h5 class="fw-bold">Mahadi tahsan</h5>
+                <ul class="d-flex justify-content-center gap-2 pb-3">
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star-half"></i></li>
+                </ul>
+                <h6>Exicutive Director</h6>
+                <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</h6>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testi_img text-center">
+                <img alt="" class="img-fluid" src="img/testimonal_2.png">
+              </div>
+              <div class="testi_con text-center ">
+                <h5 class="fw-bold">Mahadi tahsan</h5>
+                <ul class="d-flex justify-content-center gap-2 pb-3">
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star-half"></i></li>
+                </ul>
+                <h6>Exicutive Director</h6>
+                <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</h6>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testi_img text-center">
+                <img alt="" class="img-fluid" src="img/testimonal_2.png">
+              </div>
+              <div class="testi_con text-center ">
+                <h5 class="fw-bold">Mahadi tahsan</h5>
+                <ul class="d-flex justify-content-center gap-2 pb-3">
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star-half"></i></li>
+                </ul>
+                <h6>Exicutive Director</h6>
+                <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</h6>
+              </div>
+            </div>
           </div>
+
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+
         </div>
 
       </div>
@@ -573,8 +739,16 @@
     </footer>
     <!-- footer sec end -->
     <!-- _______________________________________ -->
-    
-
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/venobox.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+
+    <script src="assets/js/app.js"></script>
 </body>
+</html>
 </html>

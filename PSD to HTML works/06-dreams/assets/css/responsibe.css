@@ -3,7 +3,7 @@
         padding: 60px 0  0px !important;
     }
     .ban_con_main h1 {
-        font-size: 35px !important;
+        font-size: 25px !important;
     }
     .ban_con_main p {
         font-size: 14px !important;
@@ -30,6 +30,9 @@
     .see_btn {
         display: flex;
         justify-content: center;
+    }
+    .exper_icon img{
+        width: 100% !important;
     }
     .expert_img_part{
         display: none !important;
@@ -104,6 +107,9 @@
     }
     p {
         font-size: 12px !important;
+    }
+    .exper_icon img{
+        width: 100% !important;
     }
     .expert_con_main{
         width: 100% !important;
@@ -236,7 +242,65 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199.9px) {
+    .ban_con_main {
+        padding: 60px 0  0px !important;
+    }
+    .ban_con_main h1 {
+        font-size: 35px !important;
+    }
+    .ban_con_main p {
+        font-size: 14px !important;
+    }
+    h4 {
+        font-size: 32px !important;
+    }
+    h5 {
+        font-size: 15px !important;
+    }
+    p {
+        font-size: 12px !important;
+    }
+    .expert_con_main{
+        width: 100% !important;
+    }
+    .expert_header{
+        text-align: center;
+    }
+    .expert_img_part{
+        display: none !important;
+    }
+    .port_con_main {
+        width: 75% !important;
+    }
+    .port_img_part {
+        width: 25% !important;
+    }
 
+    .about_img img{
+        width: 100% !important;
+    }
+    .team_image, .img_cover {
+        height: 130px !important;
+        width: 130px !important;
+    }
+    h6 {
+        font-size: 12px !important;
+    }
+    .team_details h6 {
+    line-height: 12px !important;
+    }
+    .social_icons i {
+        font-size: 25px !important;
+        padding: 0 2px !important;
+    }
+    .form-control {
+        margin: 10px 0 !important;
+        height: 40px !important;
+    }
+    .btn_send {
+        padding: 10px !important;
+        font-size: 12px !important;
+    }
    
 }
 @media (min-width: 1200px) and (max-width: 1399.9px) {

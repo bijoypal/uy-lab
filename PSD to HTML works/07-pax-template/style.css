@@ -157,8 +157,10 @@
   /* profile start */
   .headline{
     font-style: italic;
-    font-size: 21px;
+    font-size: 15px;
     font-weight: lighter;
+    width: 50%;
+    margin: auto;
   }
   .pro_details a{
     color: #7d8ba8;

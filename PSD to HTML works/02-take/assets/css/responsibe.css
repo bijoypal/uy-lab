@@ -1,29 +1,59 @@
 @media (max-width: 575.9px){
+    .iphone_img {
+       display: none !important;
+    }
+    .banner_part{
+        padding: 0px!important;
+    }
+   .cover_con {
+    padding: 50px 0 !important;
+    }
+   .cover_con p{
+    font-size: 12px !important;
+    }
+   .box_con, .box_con1, .box_con2, .box_img {
+        height: 170px !important;
+    }
+    .cover_main_part {
+        padding: 30px 0 !important;
+    }
+    .cover_details {
+        padding: 30px 0  0 !important;
+    }
 
 }
 @media (min-width: 576px) and (max-width: 767.9px){
-    .iphone_img img {
-        width: 35% !important;;
-    }
+  
     .iphone_img {
-        bottom: -28%!important;
-        right: -68%!important;
+        bottom: -35%!important;
+        left: 41%!important;
     }
     .banner_part{
         padding: 0px!important;
       }
-   .cover_con {
-    padding: 50px 0 !important;
-   }
+    .cover_con {
+        padding: 50px 0 !important;
+    }
+    .cover_con p{
+        font-size: 12px !important;
+       }
+   .box_con, .box_con1, .box_con2, .box_img {
+    height: 170px !important;
+    }
+    .cover_main_part {
+        padding: 30px 0 !important;
+    }
+    .cover_details {
+        padding: 30px 0  0 !important;
+    }
+
 
 }
 @media (min-width: 768px) and (max-width: 991.9px) {
-    .iphone_img img {
-        width: 50% !important;;
-    }
+
     .iphone_img {
-        bottom: -28%!important;
-        right: -30%!important;
+        bottom: -35%!important;
+        left: 45%!important;
     }
     .banner_part{
         padding: 0px!important;
@@ -34,12 +64,10 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199.9px) {
-    .iphone_img img {
-        width: 60% !important;;
-    }
+   
     .iphone_img {
         bottom: -20%!important;
-        right: -15%!important;
+        left: 48%!important;
 
     }
     .banner_part{

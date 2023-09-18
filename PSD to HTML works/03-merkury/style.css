@@ -50,6 +50,9 @@
   }
 
           /* menu part  */
+  .logo img{
+    width: 50%;
+  }        
 
   .nav-link {
     font-size: 15px;

@@ -37,8 +37,15 @@
   .banner_part{
     background: url("img/banner.png") no-repeat;
     padding: 60px 0 150px;
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
     position: relative;
+  }
+  .iphone_img{
+    position: absolute;
+    right: 2%;
+    bottom: -4%;
+    display: inline-block;
   }
   .logo_part h3{
     font-family: var(--marriweather);
@@ -54,13 +61,6 @@
     color: #fff;
   }
  
-  .iphone_img{
-    position: absolute;
-    right: 2%;
-    bottom: -4%;
-    display: inline-block;
-  }
-
   .iphone_img img{
     width: 80%;
 
@@ -104,7 +104,7 @@
   .box_part .under .box_img{
     background: url("img/big_box.png") no-repeat 100%;
     background-size: cover;
-    background-position-y: 100% ;
+    background-position: center ;
   }
   .under .box_img p{
     max-width: 420px;

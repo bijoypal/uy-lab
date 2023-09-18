@@ -174,16 +174,19 @@
   width: 75%;
   display: inline-block;
 }
+.about_img img{
+  width: 100%;
+}
 .img_cover{
-  height: 180px;
-  width: 180px;
+  height: 160px;
+  width: 160px;
   border-radius: 50%;
   border: 7px solid #f1f1f1;
   background-color:  var(--color_1);
   display: inline-block;
 }
 .img_cover P{
-  font-size: 20px;
+  font-size: 15px;
   color: #fff;
   width: 70%;
   text-transform: uppercase;
