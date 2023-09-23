@@ -1,0 +1,197 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Mulish:wght@200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;500;600;700;800&display=swap');
+
+  *{
+    margin: 0;padding: 0;
+    outline: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #444444;
+  }
+  ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+  }
+  p{
+    margin: 0;
+    font-size: 12px;
+    color: #878787;
+    font-family: 'Open Sans', sans-serif;
+    
+  }
+  h1,h3,h4{
+    font-weight: bolder;
+    text-transform: uppercase;
+  }
+  h6{
+    text-transform: capitalize;
+  }
+  
+
+  :root{
+    --color_1: #ffe400;
+    --color_2: #444444;
+    --color_3: #212121;
+    --color-4: #5584ff;
+    --Mulish:  'Mulish', sans-serif;
+  }
+  .ban_btn a{
+    border: 1px solid;
+    padding: 15px 30px;
+    color: var(--color_2);
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  .d1,
+  .d2,
+  .d3 {
+    height: 2px;
+    width: 20px;
+    background: #e3e3e3;
+  }
+  
+  /* ----------------------------------------------------- */
+
+  /* banner part */
+  .banner_part{
+    background: url("assets/img/banner_bg.png") no-repeat;
+    background-size: 500px 500px;
+    background-position: right top;
+  }
+  
+  .ban_con{
+    position: relative;
+  }
+  .ban_con .ban_elp_r8 {
+    position: absolute;
+    right: -20%;
+    bottom: -30%;
+    z-index: -10;
+}
+  .ban_con .headline{
+    background: url("assets/img/headline_eliip.png") no-repeat;
+    background-position: left;
+    background-size: contain;
+    padding: 25px 0;
+  }
+  .ban_con .ban_btn a{
+    text-transform: uppercase;
+  }
+  .ban_con .d2{
+    background: var(--color_2);
+  }
+
+  /* -------------------------------------------- */
+  /* menu part */
+  .menu_part{
+    background: #2a2a2a;
+  }
+  .nav-item{
+    padding: 0 10px;
+  }
+  a.nav-link{
+    color: #fff;
+    font-weight: light;
+    text-transform: uppercase;
+    
+  }
+  .nav-item a:hover, .active a{
+    color: var(--color_1);
+  }
+ 
+  /* -------------------------------------------- */
+
+
+  /* about part */
+  .about_part {
+    background-image: url(assets/img/O.png), url(assets/img/ipad.png);
+    background-position: left center, right 80%;
+    background-size: 25% 62%, 18% ;
+    background-repeat: no-repeat, no-repeat;
+
+  }
+  .about_btn .ban_btn a.btn1{
+    padding: 15px 60px;
+    background: #000;
+    color: var(--color_1);
+    border: none;
+  }
+  .about_btn .ban_btn a.btn2{
+    background: var(--color_1);
+    border: none;
+  }
+  .header_part{
+    background: url("assets/img/About.png") no-repeat;
+    background-size: 30% 30%;
+    background-position: top center;
+  }
+
+  .about_con_main .about_con{
+    background: var(--color_3);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .about_img img{
+    width: 100px;
+  }
+  .about_details p{
+    width: 80%;
+    margin: auto;
+    color: #fff;
+    
+  }
+  .about_con_main .middle{
+    background: var(--color_1);
+  }
+  .client_con h3{
+    color: #444444;
+  }
+  .client_con p{
+    text-transform: capitalize;
+  }
+  /* -------------------------------------------- */
+
+  /* responsibe part */
+  .responsibe_part{
+    background-color: #fafafa;
+  }
+  .res_img_bg {
+    background-image: url(assets/img/light-lamp.png);
+    background-position: left top;
+    background-size: 10% 42%;
+    background-repeat: no-repeat;
+    margin: 0 2%;
+  }
+  
+  .resp_header{
+    background: url("assets/img/Responsive.png") no-repeat;
+    background-size: contain;
+    background-position: top center;
+  }
+  
+  .options ul li:before {
+    content: "\f138"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-right: 3%;
+    background: #fff;
+    color: var(--color_2);
+  }
+  .options ul li a{
+    color: var(--color_2);
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .resp_con .ban_btn a{
+    background: var(--color_1);
+    border: none;
+    text-transform: uppercase;
+  }
+  /* ----------------------------------------- */
