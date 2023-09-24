@@ -125,7 +125,7 @@
     background: var(--color_1);
     border: none;
   }
-  .header_part{
+  .about_part .header_part{
     background: url("assets/img/About.png") no-repeat;
     background-size: 30% 30%;
     background-position: top center;
@@ -165,7 +165,7 @@
   .res_img_bg {
     background-image: url(assets/img/light-lamp.png);
     background-position: left top;
-    background-size: 10% 42%;
+    background-size: 10% 52%;
     background-repeat: no-repeat;
     margin: 0 2%;
   }
@@ -192,6 +192,89 @@
   .resp_con .ban_btn a{
     background: var(--color_1);
     border: none;
+    text-transform: uppercase;
+  }
+  /* ----------------------------------------- */
+
+  /* introduction part */
+
+  .intro_part{
+    background: url("assets/img/intro_bd.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .opacity_bal{
+    background: #000;
+    opacity: 0.6;
+  }
+  .intro_part p{
+    width: 80%;
+  }
+  .intro_btn .ban_btn a.btn1{
+    padding: 15px 60px;
+    color: #fff;
+    border-color: #fff;
+  }
+  .intro_btn .ban_btn a.btn2{
+    background: var(--color_1);
+    border: none;
+  }
+  .bg_image {
+    background-image: url(assets/img/intro_o.png);
+    background-position: right center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  /* ----------------------------------------- */
+
+  /* feature part */
+
+  .features_part .header_part{
+    background: url("assets/img/Features.png") no-repeat;
+    background-size: 35% 65%;
+    background-position: top center;
+  }
+  .feature_icon{
+    height: 60px;
+    width: 110px;
+    background: #73c8b7;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .feature_icon i{
+    color: #fff;
+    font-size: 18px;
+    line-height: 18px;
+  }  
+  .feature_con .i2{
+    background: #31aae2;
+  }  
+  
+  .feature_con .i3{
+    background: #c183d6;
+  }  
+  .feature_con .i4{
+    background: #eb768c;
+  }  
+  .feature_con .i6{
+    background: #31aae2;
+  }  
+  .feature_con .i7{
+    background: #ebd175;
+  }  
+  .feature_con .i8{
+    background: #718ac7;
+  }  
+  .feature_con .i9{
+    background: #4be3a4;
+  }  
+  
+
+
+  .feature_details h6 {
     text-transform: uppercase;
   }
   /* ----------------------------------------- */
