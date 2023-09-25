@@ -177,7 +177,7 @@
   }
   
   .options ul li:before {
-    content: "\f138"; /* FontAwesome Unicode */
+    content: "\f005"; /* FontAwesome Unicode */
     font-family: FontAwesome;
     display: inline-block;
     margin-right: 3%;
@@ -252,7 +252,6 @@
   .feature_con .i2{
     background: #31aae2;
   }  
-  
   .feature_con .i3{
     background: #c183d6;
   }  
@@ -271,10 +270,135 @@
   .feature_con .i9{
     background: #4be3a4;
   }  
-  
-
-
   .feature_details h6 {
     text-transform: uppercase;
+  }
+  /* ----------------------------------------- */
+
+  /* work part */
+  .work_part {
+    background-color: #ffe400;
+  }
+
+  .work_part .header_part{
+    background: url("assets/img/Work.png") no-repeat;
+    background-size: 38% 60%;
+    background-position: top center;
+  }
+  .work_btn .navi{
+    width: 45px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+  }
+  .work_btn .navi i{
+    font-size: 20px;
+  }
+  .work_btn .btn{
+    width: 140px;
+    height: 42px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px;
+  }
+  .work_btn .btn a{
+   text-transform: capitalize;
+   font-family: var(--Mulish);
+   color: #000;
+   font-size: 16px;
+   font-weight: bold;
+    
+  }
+  .work_con{
+    position: relative;
+  }
+  .work_overlay{
+    height: 30%;
+    width: 100%;
+    background: rgba(226, 223, 223, 0.8);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 20;
+    transition: 0.5s;
+  }
+  .work_overlay p{
+    font-family: var(--Mulish);
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    font-size: 12px;
+    padding-left: 5%;
+  }
+  .work_overlay span{
+    font-family: var(--Mulish);
+    text-transform: uppercase;
+    font-size: 8px;
+  }
+  .right_shape{
+    position: absolute;
+    height: 22%;
+    width:  30%;
+    border-radius: 25px 25px 0 0;
+    right: 19px;
+    bottom: 40px;
+    background: rgba(226, 223, 223, 0.8);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    z-index: 2;
+    
+  }
+  .works_links{
+    position: absolute;
+    height: 25%;
+    width:  35%;
+    border-radius: 25px 25px 0 0;
+    right: 10px;
+    bottom: 35px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    z-index: 21;
+    
+  }
+  .works_links i{
+    color: #000;
+    font-size: 12px;
+    padding: 8px;
+    background: #fff;
+    border-radius: 50%;
+  }
+  .works_links i:hover{
+    background: #ffe400;
+  }
+
+  .work_con:hover .work_overlay{
+    opacity: 1;
+    visibility: visible; 
+  }
+  .work_con:hover .works_links{
+    opacity: 1;
+    visibility: visible; 
+  }
+  .work_con:hover .right_shape{
+    opacity: 1;
+    visibility: visible; 
+  }
+  .port_details{
+    position: relative;
   }
   /* ----------------------------------------- */
