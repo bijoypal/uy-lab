@@ -494,3 +494,83 @@
     background: url(assets/img/Pricing_img3.png) no-repeat;
   }
   /* ----------------------------------------- */
+
+
+  /* expert part */
+  .expert_part .header_part{
+    background: url("assets/img/Expert.png") no-repeat;
+    background-size: 40% 68%;
+    background-position: top center;
+  }
+  .expert_intro{
+    background: #ebebeb;
+  }
+  .divider_dash{
+    border: 1px dashed #b7b7b7;
+    width: 80%;
+    margin: auto;
+  }
+  .expert_con{
+    height: 548px;
+  }
+  .expert_con h5, .expert_con p{
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .expert_con_main .b2{
+    background: #ffe400;
+  }
+  .expert_con h6 {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .expert_con_main .b2 p{
+    width: 80%;
+    color: #000;
+    margin: auto;
+  }
+  .nav_social li i{
+    color: #6b6000;
+    font-size: 20px;
+  }
+  .b2:hover .expert_details1{
+    display: none;
+  }
+  .b2:hover .expert_details2{
+    display: block !important;
+  }
+  
+
+  /* ----------------------------------------- */
+
+  /* purchse part */
+  .purchase_part{
+    background: url("assets/img/impress-bg.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+ 
+  .pur_btn .ban_btn a.btn1{
+    background: var(--color_1);
+    border: none;
+    text-transform: uppercase;
+    color: #000;
+   
+  }
+  .pur_btn .ban_btn a.btn2{
+    padding: 15px 60px;
+    color: #000;
+    background: #fff;
+    border: none;
+    text-transform: uppercase;
+  }
+
+  /* ----------------------------------------- */
+
+  /* blog part */
+  .blog_part .header_part{
+    background: url("assets/img/News.png") no-repeat;
+    background-size: 38% 60%;
+    background-position: top center;
+  }
+  /* ----------------------------------------- */
