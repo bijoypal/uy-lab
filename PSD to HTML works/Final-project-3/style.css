@@ -573,4 +573,153 @@
     background-size: 38% 60%;
     background-position: top center;
   }
+
+  .blog_details h5{
+    text-transform: uppercase;
+  }
+  .blog_details span{
+    text-transform: uppercase;
+    font-size: 11px;
+  }
+  .blog_details p{
+    width: 80%;
+    margin: auto;
+    text-align: start;
+  }
+  /* hover section */
+  .blog_img{
+    position: relative;
+  }
+  .blog_date{
+    position: absolute;
+    width: 50%;
+    height: 20%;
+    left: 25%;
+    bottom: -10%;
+    background: #f9f9f9;
+    text-transform: uppercase;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+  }
+  .blog_date p{
+    color: #000;
+    font-weight: bold;
+  }
+  .blog_img:hover .blog_date{
+    opacity: 1;
+    visibility: visible; 
+  }
+
+  .blog_overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+  }
+  .blog_overlay a{
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    background: var(--color_1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .blog_overlay p{
+    font-family: var(--Josefin);
+  }
+  .blog_img:hover .blog_overlay{
+    opacity: 1;
+    visibility: visible; 
+  }
+
+
+  .blog_details .read_btn a{
+    color: #000;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  .blog_details .read_btn a:hover{
+    background: var(--color_1);
+    padding: 10px 15px;
+    border: 1px solid #000;
+    border-radius: 20px;
+  }
+  /* ----------------------------------------- */
+
+  /* Contract form part */
+  .con_form_part{
+    background: url("assets/img/contact_bg.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .con_form_part .header_part{
+    background: url("assets/img/Contact.png") no-repeat;
+    background-size: 42% 65%;
+    background-position: top center;
+  }
+  .con_form_part .form-control{
+    border-radius: 0;
+  }
+  .contract_con_main ::placeholder{
+    font-family: var(--Mulish);
+    color: #808080;
+  }
+  .contrat_con .btn{
+      background: var(--color_1);
+      padding: 10px 28px;
+      color: var(--color_2);
+      font-size: 16px;
+      font-weight: bold;
+      text-transform: uppercase;
+      border-radius: 0;
+  }
+  
+  /* ----------------------------------------- */
+
+  /* map part */
+  .map_part{
+    background: url("assets/img/map_bg.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .map_part h6{
+    text-transform: none;
+  }
+  /* ----------------------------------------- */
+
+  /* contract links part */
+  .cont_link_par{
+    background: #212121;
+  }
+  .link_icon i{
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    background: #2e2d2d;
+    border-radius: 50%;
+    border: 1px solid #7d7d7d;
+  }
+  
+  /* ----------------------------------------- */
+
+  /* footer part */
+  .footer_part {
+    background: #2e2d2d;
+
+  }
   /* ----------------------------------------- */
