@@ -1,10 +1,10 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Allerta&display=swap');
 
   *{
     margin: 0;padding: 0;
     outline: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Allerta', sans-serif;
 
   }
   ul{
@@ -17,8 +17,8 @@
   }
   p{
     margin: 0;
-    font-size: 16px;
-    color: #7d8ba8;
+    font-size: 12px;
+    color: #242424;
   }
   h1{
     font-weight: lighter;
