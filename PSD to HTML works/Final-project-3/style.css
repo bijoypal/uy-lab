@@ -31,7 +31,6 @@
     text-transform: capitalize;
   }
   
-
   :root{
     --color_1: #ffe400;
     --color_2: #444444;
@@ -72,7 +71,7 @@
     right: -20%;
     bottom: -30%;
     z-index: -10;
-}
+  }
   .ban_con .headline{
     background: url("assets/img/headline_eliip.png") no-repeat;
     background-position: left;
@@ -452,7 +451,7 @@
     text-transform: uppercase;
   }
   .price_con_main{
-    padding: 12% 0 0 0;
+    padding: 5% 0 0 0;
   }
   .packages_con{
     background: #fff;
@@ -519,6 +518,10 @@
   }
   .expert_con_main .b2{
     background: #ffe400;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
   }
   .expert_con h6 {
     text-transform: uppercase;
@@ -543,7 +546,7 @@
 
   /* ----------------------------------------- */
 
-  /* purchse part */
+  /* purchase part */
   .purchase_part{
     background: url("assets/img/impress-bg.png") no-repeat;
     background-position: center;

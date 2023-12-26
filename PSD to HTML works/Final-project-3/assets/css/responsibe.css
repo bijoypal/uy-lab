@@ -1,17 +1,340 @@
 @media (max-width: 575.9px){
+    h1 {
+        font-size: 20px !important;
+    }
+    p {
+        font-size: 8px !important;
+    }
+    h3 {
+        font-size: 18px  !important;
+    }
+    h4 {
+        font-size: 16px !important;
+    }
+    h5{
+        font-size: 14px !important;
+    }
+    h6{
+        font-size: 12px !important;
+    }
+    .banner_part {
+        background-size: 150px 150px !important;
+        background-position: right bottom !important;
+    }
+    .ban_con .ban_elp_r8 {
+        right: 0 !important;
+        top: -66% !important;
+    }
+    .ban_btn a {
+        padding: 8px 12px !important;
+        font-size: 10px !important;
+    }
+    .man_img img{
+        width: 65% !important;
+        margin: auto !important;
+    }
+    .about_part {
+        background-size: 45% 25%, 40% !important;
+        background-position: left center, right bottom !important;
+    }
+    .about_part .header_part {
+        background-size: 45% 20% !important;
+    }
+    .about_con_main .about_con {
+        height: 200px !important;
+    }
+    .about_img img {
+        width: 35% !important;
+    }
+    .mob_img img{
+        width: 80% !important;
+    }
+    .resp_header{
+        background-size: 65%  !important;
+      }
+    .resp_con p{
+        width: 70% !important;
+        margin: auto;
+    }
+    .res_img_bg {
+        background-size: 20% 25% !important;
+    }
+    .feature_icon {
+        width: 95px !important;
+    }
+    .feature_con .i9 {
+        width: 95px !important;
+    }
+    .features_part .header_part {
+        background-size: 60% 45% !important;
+    }
+    .ser_o {
+        bottom: -20% !important;
+    }
+    .ser_o img{
+        width: 40% !important;
+    }
+    .pricing_part .header_part {
+        background-size: 50% 68% !important;
+    }
+    .work_btn .btn {
+        width: 150px !important;
+        height: 50px !important;
+ 
+    }
+    .work_btn .btn a {
+        font-size: 12px !important;
+    }
+    .ser_details h6 {
+        font-size: 12px !important;
+        
+    }
+    .ser_header {
+        background-size:55% 50% !important;
+        background-position: top center !important;
+    }
+    .ser_header h3{
+        font-size: 16px !important;
+        text-align: start !important;
+    }
+    .price_con_main {
+        padding: 3% 0 0 0 !important;
+    }
+    .price_con {
+        background-size: cover !important;
+    }
+    .expert_part .header_part {
+        background-size: 40% 50% !important;
+    }
+    .expert_con {
+        height: 290px !important;
+    }
+    .nav-item {
+        padding: 0px 2px !important;
+    }
+    .nav_social li i {
+        font-size: 15px !important;
+    }
+    .blog_details h5 {
+        font-size: 13px !important;
+    }
+    .blog_details span {
+        font-size: 8px !important;
+    }
+    .link_icon i {
+        height: 60px !important;
+        width: 60px !important;
+        line-height: 60px !important;
+        font-size: 25px !important;
+    }
 
 }
 @media (min-width: 576px) and (max-width: 767.9px){
-    
+    h1 {
+        font-size: 28px !important;
+    }
+    p {
+        font-size: 10px !important;
+    }
+    h3 {
+        font-size: 22px  !important;
+    }
+    h4 {
+        font-size: 18px !important;
+    }
+
+    .banner_part {
+        background-size: 200px 200px !important;
+        background-position: right center !important;
+    }
+    .ban_con .ban_elp_r8 {
+        right: -50% !important;
+        bottom: -10% !important;
+    }
+
+    .ban_btn a {
+        padding: 12px 24px !important;
+        font-size: 12px !important;
+    }
+    .man_img img{
+        width: 100% !important;
+    }
+    .about_part {
+        background-size: 25% 45%, 18% !important;
+    }
+    .about_part .header_part {
+        background-size: 45% 20% !important;
+    }
+    .about_con_main .about_con {
+        height: 250px !important;
+    }
+    .mob_img img{
+        width: 65% !important;
+    }
+    .resp_header{
+        background-size: 65%  !important;
+      }
+    .resp_con p{
+        width: 70% !important;
+        margin: auto;
+    }
+    .res_img_bg {
+        background-size: 20% 33% !important;
+    }
+    .feature_icon {
+        width: 65px !important;
+    }
+    .feature_con .i9 {
+        width: 65px !important;
+    }
+    .features_part .header_part {
+        background-size: 50% 60% !important;
+    }
+    .ser_o {
+        bottom: -20% !important;
+    }
+    .ser_o img{
+        width: 40% !important;
+    }
+    .pricing_part .header_part {
+        background-size: 50% 68% !important;
+    }
+    .work_btn .btn {
+        width: 120px !important;
+        height: 42px !important;
+ 
+    }
+    .ser_details h6 {
+        font-size: 12px !important;
+    }
+    .ser_header {
+        background-size:55% 50% !important;
+    }
+    .ser_header h3{
+        font-size: 16px !important;
+        text-align: start !important;
+    }
+    .price_con_main {
+        padding: 3% 0 0 0 !important;
+    }
+    .price_con {
+        background-size: cover !important;
+    }
+    .expert_part .header_part {
+        background-size: 40% 50% !important;
+    }
+    .expert_con {
+        height: 420px !important;
+    }
+    .blog_details h5 {
+        font-size: 16px !important;
+    }
+    .blog_details span {
+        font-size: 10px !important;
+    }
+    .link_icon i {
+        height: 60px !important;
+        width: 60px !important;
+        line-height: 60px !important;
+        font-size: 25px !important;
+    }
     
 }
 @media (min-width: 768px) and (max-width: 991.9px) {
+    h1 {
+        font-size: 28px !important;
+    }
+    p {
+        font-size: 10px !important;
+    }
+    h3 {
+        font-size: 22px  !important;
+    }
+    h4 {
+        font-size: 18px !important;
+    }
+
+    .banner_part {
+        background-size: 300px 300px !important;
+        background-position: right center !important;
+    }
+    .ban_con .ban_elp_r8 {
+        right: -30% !important;
+        bottom: -28% !important;
+    }
+    .ban_btn a {
+        padding: 12px 24px !important;
+        font-size: 12px !important;
+    }
+    .about_part {
+        background-size: 25% 45%, 18% !important;
+    }
+    .about_part .header_part {
+        background-size: 42% 26% !important;
+    }
+    .mob_img img{
+        width: 100% !important;
+    }
+    .feature_icon {
+        width: 110px !important;
+    }
+    .feature_con .i9 {
+        width: 65px !important;
+    }
+    .features_part .header_part {
+        background-size: 40% 60% !important;
+    }
+    .work_btn .btn {
+        width: 120px !important;
+        height: 42px !important;
+ 
+    }
+    .ser_details h6 {
+        font-size: 12px !important;
+    }
+    .ser_header {
+        background-size: 42% 42% !important;
+    }
+    .ser_header h3{
+        font-size: 18px !important;
+    }
+    
+    .expert_con {
+        height: 520px !important;
+    }
+    .blog_details h5 {
+        font-size: 16px !important;
+    }
+    .blog_details span {
+        font-size: 10px !important;
+    }
     
 }
 
 @media (min-width: 992px) and (max-width: 1199.9px) {
+    .banner_part {
+        background-size: 400px 401px !important;
+        background-position: right center !important;
+    }
+    .about_part {
+        background-size: 25% 50%, 18% !important;
+    }
+    .feature_icon {
+        width: 130px !important;
+    }
+    .expert_con {
+        height: 480px !important;
+    }
+    .blog_details h5 {
+        font-size: 16px !important;
+    }
+    .blog_details span {
+        font-size: 10px !important;
+    }
+    .mob_img img{
+        width: 100% !important;
+    }
 
-   
 }
 @media (min-width: 1200px) and (max-width: 1399.9px) {
     
