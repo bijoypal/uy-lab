@@ -1,11 +1,12 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Allerta&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Allerta&family=Playfair+Display&display=swap');
+
 
   *{
     margin: 0;padding: 0;
     outline: 0;
     font-family: 'Allerta', sans-serif;
-
+    
   }
   ul{
     list-style: none;
@@ -18,7 +19,7 @@
   p{
     margin: 0;
     font-size: 12px;
-    color: #242424;
+    color: #000
   }
   h1{
     font-weight: lighter;
@@ -26,13 +27,53 @@
   h6{
     font-size: 15px;
   }
-
-  :root{
-    --color_1: #5583ff;
-    --color_2: #0d1935;
-    --color_3: #f6f7fa;
-    --color-4: #5584ff;
-    --marriweather:  'Merriweather', serif;
+  .d{
+    background: #383838;
+    width: 2px;
+    height: 50px;
   }
 
-  
+  :root{
+    --color_1: #ebe7df;
+    --color_2: #dfdbd4;
+    --color_3: #f6f7fa;
+    --color-4: #5584ff;
+    --playfair:  'Playfair Display', serif;
+  }
+
+  /* welcome part */
+  .wel_part{
+    background: #242424;
+  }
+  .menu_part{
+  background: #fff;
+  color: #242424;
+  }
+  .menu_part .container-fluid, .menu_part .navbar{
+    padding: 0;
+  }
+  .d1{
+    background: #eeeeee;
+    width: 1px;
+    height: 50px;
+  }
+  .menu_part li.nav-item, .fav_item{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+  }
+  .fav_item button{
+    background: none;
+    border: none;
+  }
+  .item_conuter{
+    background: #adadad;
+    height: 25px;
+    width: 25px;
+    border-radius: 6px;
+    color: #fff;
+    font-family: var(--playfair);
+  }
+  .cart .item_conuter{
+    background: #57c5a0;
+  }
